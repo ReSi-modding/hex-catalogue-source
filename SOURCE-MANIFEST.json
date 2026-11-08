@@ -1,0 +1,740 @@
+{
+  "version": "HEX-1.1.0-rc.1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 90,
+      "sha256": "6f2724d4d02722f8c6f099e9dc9c4ec708c14f270552af2588ba96a4b003ece0"
+    },
+    {
+      "path": "Build-Catalogue.ps1",
+      "bytes": 1609,
+      "sha256": "fe4cf7f3e07a5c6e137722385a5dd241aeff28f07b2edf79e33ee5f57193532c"
+    },
+    {
+      "path": "COPYING-GPL-3.0.txt",
+      "bytes": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "path": "dotnet-vmr-source-manifest.json",
+      "bytes": 7533,
+      "sha256": "e7983e00eab235a2fe644085f3c420fb3129cf2425da3d8f9f8ae8ef38f922af"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 911,
+      "sha256": "3f3bc67d5e6396b4277a09a6336fa8757602faf4fea9e9516bdbff655a6ca7f8"
+    },
+    {
+      "path": "notices/DynamicData-9.4.1.txt",
+      "bytes": 1290,
+      "sha256": "5d70cc9e4fbaee5b0ce3a4c284da935fa79bb19735c6ac6ccb9a7c8f49cad03f"
+    },
+    {
+      "path": "notices/FluentResults-3.15.2.txt",
+      "bytes": 1257,
+      "sha256": "5cfd65417bf0177110e6f4cf1850bfc9c27b1001bfa38484f8e09d69058cb7a5"
+    },
+    {
+      "path": "notices/GameFinder.Common-4.4.0.txt",
+      "bytes": 35323,
+      "sha256": "0abd03bcd2014d63a9dd5b800207698a0c3aa3a3befcbd8bf5a8e606ae426010"
+    },
+    {
+      "path": "notices/GameFinder.RegistryUtils-4.4.0.txt",
+      "bytes": 35330,
+      "sha256": "5fc6253790f39bfe16fc0d4d3cf6197700c4c2f598f07d4d44b5103749ef13c8"
+    },
+    {
+      "path": "notices/GameFinder.StoreHandlers.GOG-4.4.0.txt",
+      "bytes": 35334,
+      "sha256": "b29b55260f6619e6516030c8824242144a89709eaf871d6b9cc3491fe9300ceb"
+    },
+    {
+      "path": "notices/GameFinder.StoreHandlers.Steam-4.4.0.txt",
+      "bytes": 35336,
+      "sha256": "e8b3afc289defc5bf77a2a54b5e93db5be2128b778dda96cfbcdeac8008128da"
+    },
+    {
+      "path": "notices/GameFinder.StoreHandlers.Xbox-4.4.0.txt",
+      "bytes": 35335,
+      "sha256": "85df3aaa748c2ff767e1437580a46969b24e0d6ddec0a93aa8a0e3d7ae1a05f7"
+    },
+    {
+      "path": "notices/GameFinder.Wine-4.4.0.txt",
+      "bytes": 35321,
+      "sha256": "10a6afe84ea46d2f28569245f3731b7c7dfa957ca4457aee2b609f4c1191a122"
+    },
+    {
+      "path": "notices/ini-parser-netstandard-2.5.3.txt",
+      "bytes": 1293,
+      "sha256": "8ab1f41a4c01ac776cd97598e8b3605a1ca56eafd04a565ac4ab773e344684e6"
+    },
+    {
+      "path": "notices/K4os.Compression.LZ4-1.3.8.txt",
+      "bytes": 1287,
+      "sha256": "58a053904d6388fbc8a7d50bc19ec5e92cd8a9a52f8e9127d6041943704e49a6"
+    },
+    {
+      "path": "notices/K4os.Compression.LZ4.Streams-1.3.8.txt",
+      "bytes": 1295,
+      "sha256": "ce55f19c9fe1f2507b06bf0801f619fc44ad38b82e3b577757ab15e3aa3f9f6d"
+    },
+    {
+      "path": "notices/K4os.Hash.xxHash-1.0.8.txt",
+      "bytes": 1275,
+      "sha256": "208dc8891cea6dd3ab84a2d641a3085a978e555d68a1a07e781b8c8406c31cce"
+    },
+    {
+      "path": "notices/Loqui-3.2.0.txt",
+      "bytes": 35977,
+      "sha256": "cfde88f71be0606d1cfa771e8f03578b2c54fa1def48a710bab429e60179058d"
+    },
+    {
+      "path": "notices/Microsoft.Data.Sqlite-10.0.14.txt",
+      "bytes": 1292,
+      "sha256": "d1f17372135952b7ba576199a767201e372e64bad99fff618d5118981766a8fb"
+    },
+    {
+      "path": "notices/Microsoft.Data.Sqlite.Core-10.0.14.txt",
+      "bytes": 1297,
+      "sha256": "d171ec62f2c42c36acf3787d13d8c2064cf4608483796e374b12b812dc031169"
+    },
+    {
+      "path": "notices/Microsoft.Extensions.DependencyInjection.Abstractions-8.0.1.txt",
+      "bytes": 1325,
+      "sha256": "efa6a1592f002e991f9a355caea728b79f2c2da7e8dc3c381191e4f801f6207e"
+    },
+    {
+      "path": "notices/Microsoft.Extensions.Logging.Abstractions-6.0.1.txt",
+      "bytes": 1313,
+      "sha256": "2e3f8342f1b9827b8949a3226ffae61d01a5ba1514e05d6cc92e51a86ac1722d"
+    },
+    {
+      "path": "notices/miniball-devel0-1.0.4.txt",
+      "bytes": 11485,
+      "sha256": "b5a20c0396b5eac43e96362592f960c4dc8c638b1bcd24efe68f58ed027fddaf"
+    },
+    {
+      "path": "notices/Mutagen.Bethesda.Core-0.53.1.txt",
+      "bytes": 36007,
+      "sha256": "2c4bbbeabe068102a24606dfc999f222ca0dcfed8cc11f48ec267008117e6db9"
+    },
+    {
+      "path": "notices/Mutagen.Bethesda.Kernel-0.53.1.txt",
+      "bytes": 36009,
+      "sha256": "f55a179df9dfdbd20d2d8a0164d8dd78bdf2016f79c67d84899e39b9ea16c571"
+    },
+    {
+      "path": "notices/Mutagen.Bethesda.Skyrim-0.53.1.txt",
+      "bytes": 36009,
+      "sha256": "464f0589d24ed1c842912f4d4663fa12a8eafda9d3bd54d0bd4afb510f826361"
+    },
+    {
+      "path": "notices/NexusMods.Paths-0.10.0.txt",
+      "bytes": 35183,
+      "sha256": "6cc4aeb16709866e90f2f684a87907b692118004da7efa26cda2a275f4f801e0"
+    },
+    {
+      "path": "notices/Nifly-1.1.0.txt",
+      "bytes": 35888,
+      "sha256": "e2ec6158f1efc9370191c638bdc6740e805d9f0432328ad3132ff55469540fcf"
+    },
+    {
+      "path": "notices/Noggog.CSharpExt-4.1.0.txt",
+      "bytes": 35996,
+      "sha256": "6f54da1a335cbcb421823b64a27ca997b34ec27a0968787778253efabd35d38a"
+    },
+    {
+      "path": "notices/OneOf-3.0.271.txt",
+      "bytes": 1226,
+      "sha256": "546dfa7c3280759a245193632c8bb0f82b1657296e85ba79e57954bb25d82002"
+    },
+    {
+      "path": "notices/Pfim-0.11.4.txt",
+      "bytes": 1198,
+      "sha256": "67bc41fff01ebbd5fe547782fa279aaeedbe9dcfe23017e1e2681a2dd3222ccc"
+    },
+    {
+      "path": "notices/Reloaded.Memory-9.4.1.txt",
+      "bytes": 40868,
+      "sha256": "71de061c4865d341685543a7e90fe081f781321a825a7cc4bd396f19adb8ca4f"
+    },
+    {
+      "path": "notices/SharpZipLib-1.4.2.txt",
+      "bytes": 1254,
+      "sha256": "ce1f9d25046ddde7e7e4fdd4af9ab460d8b1579e78fef366c14f958b9bba486e"
+    },
+    {
+      "path": "notices/SourceGear.sqlite3-3.53.4.txt",
+      "bytes": 142,
+      "sha256": "499a238f521c125106943a2ad163ca0cc7362988ebec51100cf1bb5068489109"
+    },
+    {
+      "path": "notices/SQLite-3.53.4.txt",
+      "bytes": 130,
+      "sha256": "d7f6947d9f238071c8c4eb1a33de5927bd4a83f1b4fc7b22c48a5e1ed7f73f09"
+    },
+    {
+      "path": "notices/SQLitePCLRaw.bundle_e_sqlite3-3.0.5.txt",
+      "bytes": 11557,
+      "sha256": "082741938aa8d03e69dd44d718014ed8da76d0a9af21eeab1b5205a451f25c49"
+    },
+    {
+      "path": "notices/SQLitePCLRaw.config.e_sqlite3-3.0.5.txt",
+      "bytes": 11557,
+      "sha256": "e11dd24dd1559ae7adc7fe6a3bbc7ea7784c9682f54bd9f21e7819873ffa0274"
+    },
+    {
+      "path": "notices/SQLitePCLRaw.core-3.0.5.txt",
+      "bytes": 11545,
+      "sha256": "c7b2354cdad3735ecd873b45ea045903f12b0876604610ce9c38b89181a9192a"
+    },
+    {
+      "path": "notices/SQLitePCLRaw.provider.e_sqlite3-3.0.5.txt",
+      "bytes": 11559,
+      "sha256": "1794505893f133756441f6152d370b266632635c7bfd157cbb196b02b37c9c81"
+    },
+    {
+      "path": "notices/StrongInject-1.4.4.txt",
+      "bytes": 1259,
+      "sha256": "756a48558d53ae4a1c6e9ed08f2462f7cd5c67bda09c446394aaef78ad1aacb5"
+    },
+    {
+      "path": "notices/System.IO.Abstractions-22.0.16.txt",
+      "bytes": 1336,
+      "sha256": "f7ad6bb793b7bb62524b39e4474d249cb265e936b7c2e32335d9e5c8554d8472"
+    },
+    {
+      "path": "notices/System.Reactive-6.0.1.txt",
+      "bytes": 1308,
+      "sha256": "e18abdccd317f389a0a3b9ab401e4daea693a9204cf8a9e62e88ac3c05b2fa37"
+    },
+    {
+      "path": "notices/TestableIO.System.IO.Abstractions-22.0.16.txt",
+      "bytes": 1347,
+      "sha256": "58593f66587257a33874d6a18d24d49a05bb2f2ea8adc7d6c3a14a3d128a1ece"
+    },
+    {
+      "path": "notices/TestableIO.System.IO.Abstractions.Wrappers-22.0.16.txt",
+      "bytes": 1356,
+      "sha256": "3eda32a5119a4c84ddab551d391ebba8dbddd10d6522e7c522a9a03b8c2c8fa5"
+    },
+    {
+      "path": "notices/Testably.Abstractions.FileSystem.Interface-9.0.0.txt",
+      "bytes": 1295,
+      "sha256": "d4e82b107cf2c97c9673591d59d672a4beeaa2c3872c933772d9fe0abd022424"
+    },
+    {
+      "path": "notices/ValveKeyValue-0.10.0.360.txt",
+      "bytes": 1305,
+      "sha256": "69be8a36bcd65e40a411175b2a08b106d7e76612cce149886cc2514ced5fc4db"
+    },
+    {
+      "path": "packages.json",
+      "bytes": 16376,
+      "sha256": "dd42383397934076b5ea53854380933cf39d1d5e3ab8c3875e3c0385e226b3f3"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 1506,
+      "sha256": "7ce031c9704119542517c38936885e71a9206b02adb865cd48f4446188a2e081"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3813,
+      "sha256": "f4bbe39ce7b843426e81766f0fe4075f1b059a5e0dcfa18ceaa0682dc7709b60"
+    },
+    {
+      "path": "sdk.json",
+      "bytes": 297,
+      "sha256": "f928d05ab605e225fa3ab19f91d85297c7242b83dd47cf25c3b68a28cbc0180d"
+    },
+    {
+      "path": "src/Catalogue/AcquisitionChecks.cs",
+      "bytes": 7631,
+      "sha256": "25c2d60df6037f7ec3eb7903f8d2a41a0d39b38ac7058c53daeb815d9e749d5c"
+    },
+    {
+      "path": "src/Catalogue/AcquisitionPaths.cs",
+      "bytes": 8140,
+      "sha256": "7e3d63f331b013b1a99e279e778d54ba6b02c82e528660a86c03d4ef24b35d51"
+    },
+    {
+      "path": "src/Catalogue/CatalogueAuthorization.cs",
+      "bytes": 5578,
+      "sha256": "c44d0e92f42f91cdba9af7d619948db884cc9cf1eddfb9252db8b053c588fa4c"
+    },
+    {
+      "path": "src/Catalogue/CatalogueChecks.cs",
+      "bytes": 35477,
+      "sha256": "1a55be492da5144211ea250c6816180bc5d0286896204ebb76fe68f0b549100c"
+    },
+    {
+      "path": "src/Catalogue/CatalogueEngine.cs",
+      "bytes": 25602,
+      "sha256": "afdb19c974723daf0bfdb001c41d636cb3d0f50b827477c2d9b5c90b08e24baa"
+    },
+    {
+      "path": "src/Catalogue/EffectMaterialInfo.cs",
+      "bytes": 2720,
+      "sha256": "f6a5cc182a763f0dcb8a31c16c0cd41cdaa8cc63a9109e3881f7f446f3e15347"
+    },
+    {
+      "path": "src/Catalogue/ModelPreview.cs",
+      "bytes": 14817,
+      "sha256": "81a80cc214628b110cccef97d1714d168609c5344b987ee350433e7e539a6202"
+    },
+    {
+      "path": "src/Catalogue/ModelTextureOverrideChecks.cs",
+      "bytes": 5957,
+      "sha256": "be524b776bbf1be3d3a7ad599eb7ae0119c25e02728d579c345971508fee20fa"
+    },
+    {
+      "path": "src/Catalogue/ModelTextureOverrides.cs",
+      "bytes": 4696,
+      "sha256": "708601d6d09bff53f4cbf5bbe548e69331eeac60807e414f0bc390d33cbbb258"
+    },
+    {
+      "path": "src/Catalogue/ModelVariants.cs",
+      "bytes": 6556,
+      "sha256": "5d0027312fcd7d647c9260fb09d95cd54414f8fcdf546c2ade0aad3fa2801ffa"
+    },
+    {
+      "path": "src/Catalogue/ModelWeightPair.cs",
+      "bytes": 2798,
+      "sha256": "17c8a052e55722042e202bd23cbf368114a720f1c17a3f0f8b007e7441487a99"
+    },
+    {
+      "path": "src/Catalogue/NifMaterial.cs",
+      "bytes": 6430,
+      "sha256": "b1a152b841faf55f6daa8ab6404ed5d49e4dcdf51b2c047ebee23e72bf410a14"
+    },
+    {
+      "path": "src/Catalogue/packages.lock.json",
+      "bytes": 16807,
+      "sha256": "5caef595681695cd48978d7d6b1d0681c1f48dba3028ba8feb54e4278806f404"
+    },
+    {
+      "path": "src/Catalogue/packages.net10.lock.json",
+      "bytes": 12904,
+      "sha256": "7cc552dd4148692804369ea5ef7bbe3fc487d8a05af7b59d0c48cd2c84e94eca"
+    },
+    {
+      "path": "src/Catalogue/PlacedReferenceResearch.cs",
+      "bytes": 4723,
+      "sha256": "9a4bb259cb940f6017d1d6717ee67a51c52e10ecaffad9cdee3d06ea441ab2ec"
+    },
+    {
+      "path": "src/Catalogue/Program.cs",
+      "bytes": 1599,
+      "sha256": "efa83c9aba4465795334c9990818fd59f4d6ace929be459b232481369477120d"
+    },
+    {
+      "path": "src/Catalogue/RecordData.cs",
+      "bytes": 10747,
+      "sha256": "9e5ecf4dad3025811763409b72951c0ff386f8335feb34588944504edd615b2d"
+    },
+    {
+      "path": "src/Catalogue/ScriptDesk.Indexer.csproj",
+      "bytes": 1688,
+      "sha256": "6433dd97370fb6d8bf9cf91f659c0024f531e3f6022b896495b8589824cc70f2"
+    },
+    {
+      "path": "src/Catalogue/TexturePreview.cs",
+      "bytes": 3758,
+      "sha256": "65484a274d6293c0d223c2651c53c6bb846abc8200f3d7dadc31e4094b96efcd"
+    },
+    {
+      "path": "src/Catalogue/TomeAssociations.cs",
+      "bytes": 2225,
+      "sha256": "f17f7f42811eec6b842d3da09235fbda41466de6b02cf7adec3413592f0e7321"
+    },
+    {
+      "path": "src/Catalogue/TravelDestinations.cs",
+      "bytes": 17189,
+      "sha256": "df8152b7b4f6c597e16e5e5fb00bf7131c8fc1c3c929987a25a08f26774c9540"
+    },
+    {
+      "path": "src/Catalogue/TravelDoorChecks.cs",
+      "bytes": 7555,
+      "sha256": "83cfc6794a4b5ff9b7638ccc17f68e28301f7c648f7ddfe8bf54c0adcfc0e99a"
+    },
+    {
+      "path": "src/SharedCore/Licensing/Trust.json",
+      "bytes": 605,
+      "sha256": "9cd0048cdc0f955841a4096326c3d2fa4f4750a9e023181dfcb1daa828c98311"
+    },
+    {
+      "path": "THIRD-PARTY-INVENTORY.json",
+      "bytes": 20711,
+      "sha256": "5faf8e72828f5cd5f1ba61738153bd3e543ab0be23372ee078ba05897ba2568f"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 3951,
+      "sha256": "02def86663f0ac7af974696f4f56f6e03ba07902885ff044e9d559bff3c1566c"
+    },
+    {
+      "path": "vendor/packages/dynamicdata.9.4.1.nupkg",
+      "bytes": 3011789,
+      "sha256": "097e0d423d8b4e4ffc7f8c43139ad4541b2a718ef81ffd6a507153ad55fef7fd"
+    },
+    {
+      "path": "vendor/packages/fluentresults.3.15.2.nupkg",
+      "bytes": 71747,
+      "sha256": "3614bbb0b8605c3008e10c1bdbce47591b4f7d40cde8ad2d4e42b1d9046c23dc"
+    },
+    {
+      "path": "vendor/packages/gamefinder.common.4.4.0.nupkg",
+      "bytes": 26186,
+      "sha256": "eed93ce0318f04cd8cf0abee4e70e6e212d598b50c77c1922c3161b2397b45ad"
+    },
+    {
+      "path": "vendor/packages/gamefinder.registryutils.4.4.0.nupkg",
+      "bytes": 25456,
+      "sha256": "e9893703cf314963bbc2bfb56c942d1fa0f60d1cd0d0039bf0792649bdf830f9"
+    },
+    {
+      "path": "vendor/packages/gamefinder.storehandlers.gog.4.4.0.nupkg",
+      "bytes": 28264,
+      "sha256": "f0b5a3d4c6842a1ba4057b34648b79a6de73d47d62dd5ba824e36aa87ea036f6"
+    },
+    {
+      "path": "vendor/packages/gamefinder.storehandlers.steam.4.4.0.nupkg",
+      "bytes": 69189,
+      "sha256": "0fa001c677aa75cfb8ebb46f60cb3ca942f2607353b3b2341ac997048a6264c3"
+    },
+    {
+      "path": "vendor/packages/gamefinder.storehandlers.xbox.4.4.0.nupkg",
+      "bytes": 31556,
+      "sha256": "c4b649e09efda6d1233ddbb0758f04dbcf1425143dd899c74a390973a51bb7ee"
+    },
+    {
+      "path": "vendor/packages/gamefinder.wine.4.4.0.nupkg",
+      "bytes": 29860,
+      "sha256": "966185fa0ce2a42048bbf738c11d9082aabaff90dde1986a97152e0915fba666"
+    },
+    {
+      "path": "vendor/packages/ini-parser-netstandard.2.5.3.nupkg",
+      "bytes": 78239,
+      "sha256": "67f62dc416afb1118cf7c1cba2a9af233d91e936201339b551daeb0ca7bc1864"
+    },
+    {
+      "path": "vendor/packages/k4os.compression.lz4.1.3.8.nupkg",
+      "bytes": 206853,
+      "sha256": "3a64f72703b8aa99190cbed7aa216a642cb1c928fae2cf6dfa65dc3754fe2320"
+    },
+    {
+      "path": "vendor/packages/k4os.compression.lz4.streams.1.3.8.nupkg",
+      "bytes": 256998,
+      "sha256": "bf83f9dd7009ed69ce710d35e2952ffcf8b4950bb45a7903c2206dfd054edf4e"
+    },
+    {
+      "path": "vendor/packages/k4os.hash.xxhash.1.0.8.nupkg",
+      "bytes": 49829,
+      "sha256": "20b4d64fc34507b8ad1a90e5a0987ae41e59b961eb37674e510766f20372e16f"
+    },
+    {
+      "path": "vendor/packages/loqui.3.2.0.nupkg",
+      "bytes": 112375,
+      "sha256": "30552ab21ea9653e0e0af137ad33a5131200f3babb79b082b3add5b8755fbcef"
+    },
+    {
+      "path": "vendor/packages/microsoft.data.sqlite.10.0.14.nupkg",
+      "bytes": 30469,
+      "sha256": "34ee7848923872dcbf341e89b6c192170f222815cb9cb2604ac707b25b7fb0b4"
+    },
+    {
+      "path": "vendor/packages/microsoft.data.sqlite.core.10.0.14.nupkg",
+      "bytes": 208438,
+      "sha256": "df0828e3861a1e0240c9a3ec1891cdc1942cdc47b61c8d2fb36ce2542f02b092"
+    },
+    {
+      "path": "vendor/packages/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg",
+      "bytes": 276691,
+      "sha256": "9734d82e9443022df05bdb91ae44cd26d32669876d1892477412db50abbad0f3"
+    },
+    {
+      "path": "vendor/packages/microsoft.extensions.logging.abstractions.6.0.1.nupkg",
+      "bytes": 461337,
+      "sha256": "bf7156a6e297941216e4dc2a431d057dbeb2e7c4657af2323bf6f2a9e2e9849f"
+    },
+    {
+      "path": "vendor/packages/miniball-devel0.1.0.4.nupkg",
+      "bytes": 26860,
+      "sha256": "e2abd32842cc855a494ceb28841d330bc353fef437b7120b3459e6d51fa9ec3b"
+    },
+    {
+      "path": "vendor/packages/mutagen.bethesda.core.0.53.1.nupkg",
+      "bytes": 1975701,
+      "sha256": "3a7f9c4149ee73c884563a84b3a6651174f281d8b9643fed4e7dc6b589f0ccc2"
+    },
+    {
+      "path": "vendor/packages/mutagen.bethesda.kernel.0.53.1.nupkg",
+      "bytes": 46504,
+      "sha256": "8d0ef6bb5e6e8a1bbbb60282f1963677b82c988194c5584b1f557ce45b4577ed"
+    },
+    {
+      "path": "vendor/packages/mutagen.bethesda.skyrim.0.53.1.nupkg",
+      "bytes": 17648147,
+      "sha256": "1d282c3767b4fbe5ea21762e50e060ffda0f7b649947091b2c39188df255daf6"
+    },
+    {
+      "path": "vendor/packages/nexusmods.paths.0.10.0.nupkg",
+      "bytes": 166334,
+      "sha256": "b7350a3c1ac637266f56049c0c03f4aaf545e6757aeb7e6fdcd941bf3a67cf53"
+    },
+    {
+      "path": "vendor/packages/nifly.1.1.0.nupkg",
+      "bytes": 835997,
+      "sha256": "7ce6a979c0edd2d32c293d5394851e6905e0074159eddc526bd475a9f59fd0bf"
+    },
+    {
+      "path": "vendor/packages/noggog.csharpext.4.1.0.nupkg",
+      "bytes": 785657,
+      "sha256": "569ad9d084cb0d402f67adf72970d47552ae75677365b63db4096ca7f47cf729"
+    },
+    {
+      "path": "vendor/packages/oneof.3.0.271.nupkg",
+      "bytes": 138838,
+      "sha256": "b455b2f0983f5d525f54e75d8d7782022ceafc05258c9aeae89f0f17a02b6125"
+    },
+    {
+      "path": "vendor/packages/pfim.0.11.4.nupkg",
+      "bytes": 51327,
+      "sha256": "f38985bee7e02f55d2d5f453181a51e33541e04eff723da923d1b493e97babb3"
+    },
+    {
+      "path": "vendor/packages/reloaded.memory.9.4.1.nupkg",
+      "bytes": 691094,
+      "sha256": "6d7693014c7efd28a230b9b1b8fba657dcf9c351dc1e9cc4a0db91fb136169fb"
+    },
+    {
+      "path": "vendor/packages/sharpziplib.1.4.2.nupkg",
+      "bytes": 741182,
+      "sha256": "fe0895aa2930a2b1b65caa9f37db8bca35125ebdf9cc1b99d855f6afc5ff5946"
+    },
+    {
+      "path": "vendor/packages/sourcegear.sqlite3.3.53.4.nupkg",
+      "bytes": 27531833,
+      "sha256": "3eb2b0fc0901fbe09b783968b1c1b002eac7878053fe47d309e77d2268010d9a"
+    },
+    {
+      "path": "vendor/packages/sqlite.3.53.4.nupkg",
+      "bytes": 27531643,
+      "sha256": "5641eb58e88429fd73d09fc294bdaa610a6e99099f4141de912a5e4aa6d773ca"
+    },
+    {
+      "path": "vendor/packages/sqlitepclraw.bundle_e_sqlite3.3.0.5.nupkg",
+      "bytes": 16152,
+      "sha256": "e325ce61a86bca381fbd35487264481e1c6a39663546fec82035fa661198c2a1"
+    },
+    {
+      "path": "vendor/packages/sqlitepclraw.config.e_sqlite3.3.0.5.nupkg",
+      "bytes": 31081,
+      "sha256": "1c3908111a4a14e898839836bea9c4da390edc669b297c404de92422abee3ab1"
+    },
+    {
+      "path": "vendor/packages/sqlitepclraw.core.3.0.5.nupkg",
+      "bytes": 58944,
+      "sha256": "7476b4b8e067d88c4cb598a31893b511037b88e05c28d524f4b4433fe9f69048"
+    },
+    {
+      "path": "vendor/packages/sqlitepclraw.provider.e_sqlite3.3.0.5.nupkg",
+      "bytes": 78260,
+      "sha256": "10c6d3daac432bb382dda06c35e5f7ffcce3618792141bd91656527f06ef5b25"
+    },
+    {
+      "path": "vendor/packages/stronginject.1.4.4.nupkg",
+      "bytes": 157986,
+      "sha256": "be2851a231ba41756df542b7da0737330548b90b97e7c7cb8d849bf07a06f6ec"
+    },
+    {
+      "path": "vendor/packages/system.io.abstractions.22.0.16.nupkg",
+      "bytes": 44806,
+      "sha256": "2ae3fd9ee87905a8662f520c854740da4759a5c7bf38d03e7bc363e42f321f6b"
+    },
+    {
+      "path": "vendor/packages/system.reactive.6.0.1.nupkg",
+      "bytes": 2721369,
+      "sha256": "2e8e5432aa7c0ec6d5494c5ad94a42951d46a18cea410712c647f216a07f7784"
+    },
+    {
+      "path": "vendor/packages/testableio.system.io.abstractions.22.0.16.nupkg",
+      "bytes": 49147,
+      "sha256": "3e38b4210b1d1c629ad82b2da2ce385ef24e0cde9b79820a2d6ddf0dea207b8f"
+    },
+    {
+      "path": "vendor/packages/testableio.system.io.abstractions.wrappers.22.0.16.nupkg",
+      "bytes": 206305,
+      "sha256": "ffc3c69c7c47d49e5921d7969be1b3713e8df992da696ac960bfbef035ecc569"
+    },
+    {
+      "path": "vendor/packages/testably.abstractions.filesystem.interface.9.0.0.nupkg",
+      "bytes": 109384,
+      "sha256": "e895bea83b6a413f52b4fe284d1eee3b4367995736c5c8d267a76cd87ef5c2d8"
+    },
+    {
+      "path": "vendor/packages/valvekeyvalue.0.10.0.360.nupkg",
+      "bytes": 62301,
+      "sha256": "2cf43a8ac52c0377102a23ba0038a3ac2436b9cc784c3d35fa41b37a2de32066"
+    },
+    {
+      "path": "vendor/sources/altmann-FluentResults-8b675de7e8b6e4c0921e95138c99e15fd52cde40.zip",
+      "bytes": 1049974,
+      "sha256": "ad0b6d68ac1b3f244a3175225323e5f593ec8ad099e3e9fcbf7734d86d0462df"
+    },
+    {
+      "path": "vendor/sources/dotnet-efcore-4c96c90aa32d1d339911d82609f80200248c64f1.zip",
+      "bytes": 5434372,
+      "sha256": "fca7f9ce745f88a6e20deff5bee758f6e90e825f0ecd3566af12c0c5cab28ead"
+    },
+    {
+      "path": "vendor/sources/dotnet-reactive-1cfc6465d1c9c6144d5b4e6420240f2767c8f85c.zip",
+      "bytes": 10134145,
+      "sha256": "1fb65016711aa6918d3228b4c29777658f38d44f980e3ba51cd4b52aabd4dc61"
+    },
+    {
+      "path": "vendor/sources/dotnet-runtime-9f4b1f5d664afdfc80e1508ab7ed099dff210fbd.zip",
+      "bytes": 2489075,
+      "sha256": "d241f498ac6277fef1584d7966d69393dcd68ff407507f4f11e56550b446a2bb"
+    },
+    {
+      "path": "vendor/sources/dotnet-runtime-c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663.zip",
+      "bytes": 2173927,
+      "sha256": "a1d21a00133655cc5ff035e029d4fa999f55fba85f1903843e382d8ddcacf1a9"
+    },
+    {
+      "path": "vendor/sources/ericsink-SQLitePCL.raw-96043b8cff323f21919df86a431c136655d81b4a.zip",
+      "bytes": 414497,
+      "sha256": "b56638dd7a8f11922a608830eb7541dc1563741a4b44d99ed44f75644876ff28"
+    },
+    {
+      "path": "vendor/sources/ericsink-SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4.zip",
+      "bytes": 419625,
+      "sha256": "b2ec569f768f5ec9cc6747975d7d3edf43e8d650fc9d71087c53b8fbfa732522"
+    },
+    {
+      "path": "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+      "bytes": 141611,
+      "sha256": "0bda801eee20c3684355a902bf06ee964a5eff6e69ec2a3608ba014f91ca454a"
+    },
+    {
+      "path": "vendor/sources/icsharpcode-SharpZipLib-33f64eb0f28cdd2b084cb822fcc224c7c5aba553.zip",
+      "bytes": 2249544,
+      "sha256": "bb5af5facad4ec7ef9e2202bf9317b5ad71d450d63c8052ebc1cb9268168502a"
+    },
+    {
+      "path": "vendor/sources/mcintyre321-OneOf-6e02dbe75d0f20f198c640d4c04190a85c5ac9e6.zip",
+      "bytes": 259123,
+      "sha256": "a63d1622b8b0ebfff3f33108df8a712ed9bbf7555ccf1e526a036750b4d7ee45"
+    },
+    {
+      "path": "vendor/sources/MiloszKrajewski-K4os.Compression.LZ4-f5a25b7d72e2e41550fe20662597169ff11c3b60.zip",
+      "bytes": 670486,
+      "sha256": "034eefc7cca78b70cb10506d43e232050b6e9f31e45c80fd2ebe3dfe26d0fb20"
+    },
+    {
+      "path": "vendor/sources/MiloszKrajewski-K4os.Hash.xxHash-c36ef54edbd778c082cab04df7e42cb72a22d887.zip",
+      "bytes": 40349,
+      "sha256": "6ce019f704fff7c770f86509e42349f1ca39e2a226f34c7a568b97ed17b0fe5f"
+    },
+    {
+      "path": "vendor/sources/Mutagen-Modding-Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8.zip",
+      "bytes": 28194457,
+      "sha256": "f8d277fe3d5de4786c324a979a018a2f0eb83bfd1f1b3668e9c943a9c77ee44d"
+    },
+    {
+      "path": "vendor/sources/nano-byte-ini-parser-b1beea584b23c65f7c9bcafd8ab9be62395f477a.zip",
+      "bytes": 81074,
+      "sha256": "7f184148a173dfda4b79ddbe9842361e39302aaaaaaf2044a77fc50f7ade46ec"
+    },
+    {
+      "path": "vendor/sources/Nexus-Mods-NexusMods.App.Meta-75faebd40fc091fcaf995c6c174867537caf2b05.zip",
+      "bytes": 28713,
+      "sha256": "27c8cd97c909180249d3fb76f75cbd0f87c67e5bc9d6c1d52196f36cef74c6e2"
+    },
+    {
+      "path": "vendor/sources/Nexus-Mods-NexusMods.Paths-6c7b575e96d712056e7c75cd366ac17e55925dbf.zip",
+      "bytes": 139224,
+      "sha256": "b473cb2188c7e83848478de0e32952f89f8a1e5815270a011d777ee0f3eede37"
+    },
+    {
+      "path": "vendor/sources/nickbabcock-Pfim-0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d.zip",
+      "bytes": 939157,
+      "sha256": "8e1676181e8e260786c8d404fcf6d965632ccd3518849d92f7231863c2fcc11e"
+    },
+    {
+      "path": "vendor/sources/niftools-nifxml-292bb9403cbf4052c58d66e80906b6bde1700779.zip",
+      "bytes": 147640,
+      "sha256": "7ba959f5aa88d870db74782e874b461eb3bc332508005802d2a14eafb304eca8"
+    },
+    {
+      "path": "vendor/sources/Noggog-CSharpExt-de16c021f62802746a4ebb7a51a2cde676fb37d7.zip",
+      "bytes": 447344,
+      "sha256": "a40616d6c7b772bd0308eefb744f0749c2fe34a1c23fd822d6375bfeaba0c197"
+    },
+    {
+      "path": "vendor/sources/Noggog-Loqui-a370205845bfe2e23749f31304a5fc9ee3d30ee0.zip",
+      "bytes": 195436,
+      "sha256": "f20f20e3e4e986df5d797446a141f0737cb32fcba48709b30be695a8ae67603a"
+    },
+    {
+      "path": "vendor/sources/ousnius-NiflySharp-7b55e88a749fd6b6b5ca23a1c18f4b1aed207634.zip",
+      "bytes": 146526,
+      "sha256": "e377d69190f0aef171b494cb5b0ce1b69db15d96dd028bcbf98acf9355893e1e"
+    },
+    {
+      "path": "vendor/sources/reactiveui-DynamicData-758ef92ae5b41a78f937add6a9438c9fed39481d.zip",
+      "bytes": 909742,
+      "sha256": "1f068cc3e52b95fe83dd31508a90cf395a794dba5ac974174afcc4c6bad1df01"
+    },
+    {
+      "path": "vendor/sources/Reloaded-Project-Reloaded.Memory-2c31a5e84aa06dbe8e22ed3859b79d8729618fb2.zip",
+      "bytes": 891691,
+      "sha256": "c4ed43306683619a07cda4e529fb250b51d8009dd820a323e3575c0655bd6d63"
+    },
+    {
+      "path": "vendor/sources/Reloaded-Project-Reloaded.Project.Configurations-38db64b2a6c6952a66e1fe00cd344bc2f31c4b70.zip",
+      "bytes": 30720,
+      "sha256": "76c9c583fb7dea145993859e98f63f2a3acb82424dfd3585c5aa67bf2e10e422"
+    },
+    {
+      "path": "vendor/sources/SearchAThing-forks-miniball-d3c3c96494fda777c8fb5d147bf336185d37488f.zip",
+      "bytes": 20077,
+      "sha256": "a3b7ab9108148808d118ca357285ce451d7a4b800a0fc2093c9e13a9cf448f5d"
+    },
+    {
+      "path": "vendor/sources/sqlite-amalgamation-3530400.zip",
+      "bytes": 2946650,
+      "sha256": "1e71ddf93849c6a6ecf58b827c0692073d2dd7ee40196158068f7b29f422e87d"
+    },
+    {
+      "path": "vendor/sources/TestableIO-System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78.zip",
+      "bytes": 142726,
+      "sha256": "9d1ebc46904866b3861c0a31e10234807005ab56f12229c60afb4342dfbd83e1"
+    },
+    {
+      "path": "vendor/sources/Testably-Testably.Abstractions-e3f60b39df247720d64485067b2f30abcb9a63f1.zip",
+      "bytes": 336179,
+      "sha256": "a5cc2dd7b38b565bcda1b360dfffe6577c4d9f0ef62b4f067cc518745e2e7148"
+    },
+    {
+      "path": "vendor/sources/ValveResourceFormat-ValveKeyValue-1e95e84c83b32b1263912cdec188064a8fed0bdb.zip",
+      "bytes": 148550,
+      "sha256": "3ff013d7a145b9f1b6cd018f01a03e8c9f8bfae1da18e96b6b785ddd18dac447"
+    },
+    {
+      "path": "vendor/sources/YairHalberstadt-stronginject-6f3077c68b1ebd9c56663456efb67ef90886942e.zip",
+      "bytes": 411123,
+      "sha256": "acfbd40d21dc1dda7366ea97542abc4a0534c344ff856e5e3903fba48847d04f"
+    },
+    {
+      "path": "VENDOR-SOURCES.json",
+      "bytes": 31937,
+      "sha256": "34f512ef7a5954db965d0cd1c8c20eea0bdd03c323e180199412a89930e9bc97"
+    }
+  ]
+}

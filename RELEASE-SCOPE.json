@@ -1,0 +1,16 @@
+{
+  "version": "HEX-1.1.0-rc.1",
+  "scope": "catalogue-helper-only",
+  "ownSourcePublicationAuthorized": true,
+  "ownSourceFiles": 23,
+  "mainFrontendIncluded": false,
+  "gameConnectorIncluded": false,
+  "commerceBackendIncluded": false,
+  "privateUserDataIncluded": false,
+  "protectedCredentialScan": "passed UTF-8/UTF-16LE exact known production credentials and stock keys",
+  "nugetPackages": 41,
+  "preferredSourceArchives": 30,
+  "helperSourceLicense": "GPL-3.0-only",
+  "sourceUrl": "https://github.com/ReSi-modding/hex-catalogue-source/tree/hex-1.1.0-rc.1",
+  "manifestSha256": "c0dc08896b37de26d2bdd9f80aa5bb0563b1f138b665066d38bcd7384e493b1d"
+}

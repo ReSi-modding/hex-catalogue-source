@@ -1,0 +1,371 @@
+﻿[
+    {
+        "id":  "DynamicData",
+        "version":  "9.4.1",
+        "sourceFile":  "vendor/sources/reactiveui-DynamicData-758ef92ae5b41a78f937add6a9438c9fed39481d.zip",
+        "sourceCommit":  "758ef92ae5b41a78f937add6a9438c9fed39481d",
+        "notice":  "notices/DynamicData-9.4.1.txt",
+        "evidence":  "reactiveui/DynamicData@758ef92ae5b41a78f937add6a9438c9fed39481d / DynamicData-758ef92ae5b41a78f937add6a9438c9fed39481d/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "FluentResults",
+        "version":  "3.15.2",
+        "sourceFile":  "vendor/sources/altmann-FluentResults-8b675de7e8b6e4c0921e95138c99e15fd52cde40.zip",
+        "sourceCommit":  "8b675de7e8b6e4c0921e95138c99e15fd52cde40",
+        "notice":  "notices/FluentResults-3.15.2.txt",
+        "evidence":  "altmann/FluentResults@8b675de7e8b6e4c0921e95138c99e15fd52cde40 / FluentResults-8b675de7e8b6e4c0921e95138c99e15fd52cde40/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "GameFinder.Common",
+        "version":  "4.4.0",
+        "sourceFile":  "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+        "sourceCommit":  "bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "notice":  "notices/GameFinder.Common-4.4.0.txt",
+        "evidence":  "erri120/GameFinder@bb462fbf9babae29375e29ec6833d8b595b3ab27 / GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27/LICENSE",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "GameFinder.RegistryUtils",
+        "version":  "4.4.0",
+        "sourceFile":  "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+        "sourceCommit":  "bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "notice":  "notices/GameFinder.RegistryUtils-4.4.0.txt",
+        "evidence":  "erri120/GameFinder@bb462fbf9babae29375e29ec6833d8b595b3ab27 / GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27/LICENSE",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "GameFinder.StoreHandlers.GOG",
+        "version":  "4.4.0",
+        "sourceFile":  "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+        "sourceCommit":  "bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "notice":  "notices/GameFinder.StoreHandlers.GOG-4.4.0.txt",
+        "evidence":  "erri120/GameFinder@bb462fbf9babae29375e29ec6833d8b595b3ab27 / GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27/LICENSE",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "GameFinder.StoreHandlers.Steam",
+        "version":  "4.4.0",
+        "sourceFile":  "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+        "sourceCommit":  "bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "notice":  "notices/GameFinder.StoreHandlers.Steam-4.4.0.txt",
+        "evidence":  "erri120/GameFinder@bb462fbf9babae29375e29ec6833d8b595b3ab27 / GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27/LICENSE",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "GameFinder.StoreHandlers.Xbox",
+        "version":  "4.4.0",
+        "sourceFile":  "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+        "sourceCommit":  "bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "notice":  "notices/GameFinder.StoreHandlers.Xbox-4.4.0.txt",
+        "evidence":  "erri120/GameFinder@bb462fbf9babae29375e29ec6833d8b595b3ab27 / GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27/LICENSE",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "GameFinder.Wine",
+        "version":  "4.4.0",
+        "sourceFile":  "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+        "sourceCommit":  "bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "notice":  "notices/GameFinder.Wine-4.4.0.txt",
+        "evidence":  "erri120/GameFinder@bb462fbf9babae29375e29ec6833d8b595b3ab27 / GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27/LICENSE",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "ini-parser-netstandard",
+        "version":  "2.5.3",
+        "sourceFile":  "vendor/sources/nano-byte-ini-parser-b1beea584b23c65f7c9bcafd8ab9be62395f477a.zip",
+        "sourceCommit":  "b1beea584b23c65f7c9bcafd8ab9be62395f477a",
+        "notice":  "notices/ini-parser-netstandard-2.5.3.txt",
+        "evidence":  "nano-byte/ini-parser@b1beea584b23c65f7c9bcafd8ab9be62395f477a / ini-parser-b1beea584b23c65f7c9bcafd8ab9be62395f477a/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "K4os.Compression.LZ4",
+        "version":  "1.3.8",
+        "sourceFile":  "vendor/sources/MiloszKrajewski-K4os.Compression.LZ4-f5a25b7d72e2e41550fe20662597169ff11c3b60.zip",
+        "sourceCommit":  "f5a25b7d72e2e41550fe20662597169ff11c3b60",
+        "notice":  "notices/K4os.Compression.LZ4-1.3.8.txt",
+        "evidence":  "MiloszKrajewski/K4os.Compression.LZ4@f5a25b7d72e2e41550fe20662597169ff11c3b60 / K4os.Compression.LZ4-f5a25b7d72e2e41550fe20662597169ff11c3b60/LICENSE",
+        "license":  "License text retained"
+    },
+    {
+        "id":  "K4os.Compression.LZ4.Streams",
+        "version":  "1.3.8",
+        "sourceFile":  "vendor/sources/MiloszKrajewski-K4os.Compression.LZ4-f5a25b7d72e2e41550fe20662597169ff11c3b60.zip",
+        "sourceCommit":  "f5a25b7d72e2e41550fe20662597169ff11c3b60",
+        "notice":  "notices/K4os.Compression.LZ4.Streams-1.3.8.txt",
+        "evidence":  "MiloszKrajewski/K4os.Compression.LZ4@f5a25b7d72e2e41550fe20662597169ff11c3b60 / K4os.Compression.LZ4-f5a25b7d72e2e41550fe20662597169ff11c3b60/LICENSE",
+        "license":  "License text retained"
+    },
+    {
+        "id":  "K4os.Hash.xxHash",
+        "version":  "1.0.8",
+        "sourceFile":  "vendor/sources/MiloszKrajewski-K4os.Hash.xxHash-c36ef54edbd778c082cab04df7e42cb72a22d887.zip",
+        "sourceCommit":  "c36ef54edbd778c082cab04df7e42cb72a22d887",
+        "notice":  "notices/K4os.Hash.xxHash-1.0.8.txt",
+        "evidence":  "MiloszKrajewski/K4os.Hash.xxHash@c36ef54edbd778c082cab04df7e42cb72a22d887 / K4os.Hash.xxHash-c36ef54edbd778c082cab04df7e42cb72a22d887/LICENSE",
+        "license":  "License text retained"
+    },
+    {
+        "id":  "Loqui",
+        "version":  "3.2.0",
+        "sourceFile":  "vendor/sources/Noggog-Loqui-a370205845bfe2e23749f31304a5fc9ee3d30ee0.zip",
+        "sourceCommit":  "a370205845bfe2e23749f31304a5fc9ee3d30ee0",
+        "notice":  "notices/Loqui-3.2.0.txt",
+        "evidence":  "Noggog/Loqui@a370205845bfe2e23749f31304a5fc9ee3d30ee0 / Loqui-a370205845bfe2e23749f31304a5fc9ee3d30ee0/LICENSE.txt",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "Microsoft.Data.Sqlite",
+        "version":  "10.0.14",
+        "sourceFile":  "vendor/sources/dotnet-efcore-4c96c90aa32d1d339911d82609f80200248c64f1.zip",
+        "sourceCommit":  "4c96c90aa32d1d339911d82609f80200248c64f1",
+        "notice":  "notices/Microsoft.Data.Sqlite-10.0.14.txt",
+        "evidence":  "dotnet/efcore@4c96c90aa32d1d339911d82609f80200248c64f1 / efcore-4c96c90aa32d1d339911d82609f80200248c64f1/LICENSE.txt",
+        "license":  "MIT"
+    },
+    {
+        "id":  "Microsoft.Data.Sqlite.Core",
+        "version":  "10.0.14",
+        "sourceFile":  "vendor/sources/dotnet-efcore-4c96c90aa32d1d339911d82609f80200248c64f1.zip",
+        "sourceCommit":  "4c96c90aa32d1d339911d82609f80200248c64f1",
+        "notice":  "notices/Microsoft.Data.Sqlite.Core-10.0.14.txt",
+        "evidence":  "dotnet/efcore@4c96c90aa32d1d339911d82609f80200248c64f1 / efcore-4c96c90aa32d1d339911d82609f80200248c64f1/LICENSE.txt",
+        "license":  "MIT"
+    },
+    {
+        "id":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "version":  "8.0.1",
+        "sourceFile":  "vendor/sources/dotnet-runtime-9f4b1f5d664afdfc80e1508ab7ed099dff210fbd.zip",
+        "sourceCommit":  "9f4b1f5d664afdfc80e1508ab7ed099dff210fbd",
+        "notice":  "notices/Microsoft.Extensions.DependencyInjection.Abstractions-8.0.1.txt",
+        "evidence":  "dotnet/runtime@9f4b1f5d664afdfc80e1508ab7ed099dff210fbd / runtime-9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/LICENSE.TXT",
+        "license":  "MIT"
+    },
+    {
+        "id":  "Microsoft.Extensions.Logging.Abstractions",
+        "version":  "6.0.1",
+        "sourceFile":  "vendor/sources/dotnet-runtime-c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663.zip",
+        "sourceCommit":  "c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663",
+        "notice":  "notices/Microsoft.Extensions.Logging.Abstractions-6.0.1.txt",
+        "evidence":  "dotnet/runtime@c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663 / runtime-c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663/LICENSE.TXT",
+        "license":  "MIT"
+    },
+    {
+        "id":  "miniball-devel0",
+        "version":  "1.0.4",
+        "sourceFile":  "vendor/sources/SearchAThing-forks-miniball-d3c3c96494fda777c8fb5d147bf336185d37488f.zip",
+        "sourceCommit":  "d3c3c96494fda777c8fb5d147bf336185d37488f",
+        "notice":  "notices/miniball-devel0-1.0.4.txt",
+        "evidence":  "Declared Apache-2.0; copyright notices retained in supplied C# source",
+        "license":  "Apache-2.0"
+    },
+    {
+        "id":  "Mutagen.Bethesda.Core",
+        "version":  "0.53.1",
+        "sourceFile":  "vendor/sources/Mutagen-Modding-Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8.zip",
+        "sourceCommit":  "bdbb6ff6faad3b4c3b0689e98e889ecd205068c8",
+        "notice":  "notices/Mutagen.Bethesda.Core-0.53.1.txt",
+        "evidence":  "Mutagen-Modding/Mutagen@bdbb6ff6faad3b4c3b0689e98e889ecd205068c8 / Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8/LICENSE.txt",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "Mutagen.Bethesda.Kernel",
+        "version":  "0.53.1",
+        "sourceFile":  "vendor/sources/Mutagen-Modding-Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8.zip",
+        "sourceCommit":  "bdbb6ff6faad3b4c3b0689e98e889ecd205068c8",
+        "notice":  "notices/Mutagen.Bethesda.Kernel-0.53.1.txt",
+        "evidence":  "Mutagen-Modding/Mutagen@bdbb6ff6faad3b4c3b0689e98e889ecd205068c8 / Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8/LICENSE.txt",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "Mutagen.Bethesda.Skyrim",
+        "version":  "0.53.1",
+        "sourceFile":  "vendor/sources/Mutagen-Modding-Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8.zip",
+        "sourceCommit":  "bdbb6ff6faad3b4c3b0689e98e889ecd205068c8",
+        "notice":  "notices/Mutagen.Bethesda.Skyrim-0.53.1.txt",
+        "evidence":  "Mutagen-Modding/Mutagen@bdbb6ff6faad3b4c3b0689e98e889ecd205068c8 / Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8/LICENSE.txt",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "NexusMods.Paths",
+        "version":  "0.10.0",
+        "sourceFile":  "vendor/sources/Nexus-Mods-NexusMods.Paths-6c7b575e96d712056e7c75cd366ac17e55925dbf.zip",
+        "sourceCommit":  "6c7b575e96d712056e7c75cd366ac17e55925dbf",
+        "notice":  "notices/NexusMods.Paths-0.10.0.txt",
+        "evidence":  "Nexus-Mods/NexusMods.Paths@6c7b575e96d712056e7c75cd366ac17e55925dbf / NexusMods.Paths-6c7b575e96d712056e7c75cd366ac17e55925dbf/LICENSE.md",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "Nifly",
+        "version":  "1.1.0",
+        "sourceFile":  "vendor/sources/ousnius-NiflySharp-7b55e88a749fd6b6b5ca23a1c18f4b1aed207634.zip",
+        "sourceCommit":  "7b55e88a749fd6b6b5ca23a1c18f4b1aed207634",
+        "notice":  "notices/Nifly-1.1.0.txt",
+        "evidence":  "Exact NuGet license file",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "Noggog.CSharpExt",
+        "version":  "4.1.0",
+        "sourceFile":  "vendor/sources/Noggog-CSharpExt-de16c021f62802746a4ebb7a51a2cde676fb37d7.zip",
+        "sourceCommit":  "de16c021f62802746a4ebb7a51a2cde676fb37d7",
+        "notice":  "notices/Noggog.CSharpExt-4.1.0.txt",
+        "evidence":  "Noggog/CSharpExt@de16c021f62802746a4ebb7a51a2cde676fb37d7 / CSharpExt-de16c021f62802746a4ebb7a51a2cde676fb37d7/LICENSE.txt",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "OneOf",
+        "version":  "3.0.271",
+        "sourceFile":  "vendor/sources/mcintyre321-OneOf-6e02dbe75d0f20f198c640d4c04190a85c5ac9e6.zip",
+        "sourceCommit":  "6e02dbe75d0f20f198c640d4c04190a85c5ac9e6",
+        "notice":  "notices/OneOf-3.0.271.txt",
+        "evidence":  "mcintyre321/OneOf@6e02dbe75d0f20f198c640d4c04190a85c5ac9e6 / OneOf-6e02dbe75d0f20f198c640d4c04190a85c5ac9e6/licence.md",
+        "license":  "License text retained"
+    },
+    {
+        "id":  "Pfim",
+        "version":  "0.11.4",
+        "sourceFile":  "vendor/sources/nickbabcock-Pfim-0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d.zip",
+        "sourceCommit":  "0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d",
+        "notice":  "notices/Pfim-0.11.4.txt",
+        "evidence":  "nickbabcock/Pfim@0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d / Pfim-0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d/LICENSE.txt",
+        "license":  "License text retained"
+    },
+    {
+        "id":  "Reloaded.Memory",
+        "version":  "9.4.1",
+        "sourceFile":  "vendor/sources/Reloaded-Project-Reloaded.Memory-2c31a5e84aa06dbe8e22ed3859b79d8729618fb2.zip",
+        "sourceCommit":  "2c31a5e84aa06dbe8e22ed3859b79d8729618fb2",
+        "notice":  "notices/Reloaded.Memory-9.4.1.txt",
+        "evidence":  "Exact NuGet license file",
+        "license":  "GPL-3.0"
+    },
+    {
+        "id":  "SharpZipLib",
+        "version":  "1.4.2",
+        "sourceFile":  "vendor/sources/icsharpcode-SharpZipLib-33f64eb0f28cdd2b084cb822fcc224c7c5aba553.zip",
+        "sourceCommit":  "33f64eb0f28cdd2b084cb822fcc224c7c5aba553",
+        "notice":  "notices/SharpZipLib-1.4.2.txt",
+        "evidence":  "icsharpcode/SharpZipLib@33f64eb0f28cdd2b084cb822fcc224c7c5aba553 / SharpZipLib-33f64eb0f28cdd2b084cb822fcc224c7c5aba553/LICENSE.txt",
+        "license":  "MIT"
+    },
+    {
+        "id":  "SourceGear.sqlite3",
+        "version":  "3.53.4",
+        "sourceFile":  "vendor/sources/sqlite-amalgamation-3530400.zip",
+        "sourceCommit":  "bf7c7f30031888f4e796e429ab3978879485813aaca6f641c7b33e4e09459bcc",
+        "notice":  "notices/SourceGear.sqlite3-3.53.4.txt",
+        "evidence":  "Exact NuGet license file",
+        "license":  "LICENSE.txt"
+    },
+    {
+        "id":  "SQLite",
+        "version":  "3.53.4",
+        "sourceFile":  "vendor/sources/sqlite-amalgamation-3530400.zip",
+        "sourceCommit":  "bf7c7f30031888f4e796e429ab3978879485813aaca6f641c7b33e4e09459bcc",
+        "notice":  "notices/SQLite-3.53.4.txt",
+        "evidence":  "Exact NuGet license file",
+        "license":  "LICENSE.txt"
+    },
+    {
+        "id":  "SQLitePCLRaw.bundle_e_sqlite3",
+        "version":  "3.0.5",
+        "sourceFile":  "vendor/sources/ericsink-SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4.zip",
+        "sourceCommit":  "ed046114d5a30534e13294d94d78eb73de896ad4",
+        "notice":  "notices/SQLitePCLRaw.bundle_e_sqlite3-3.0.5.txt",
+        "evidence":  "ericsink/SQLitePCL.raw@ed046114d5a30534e13294d94d78eb73de896ad4 / SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4/LICENSE.TXT",
+        "license":  "Apache-2.0"
+    },
+    {
+        "id":  "SQLitePCLRaw.config.e_sqlite3",
+        "version":  "3.0.5",
+        "sourceFile":  "vendor/sources/ericsink-SQLitePCL.raw-96043b8cff323f21919df86a431c136655d81b4a.zip",
+        "sourceCommit":  "96043b8cff323f21919df86a431c136655d81b4a",
+        "notice":  "notices/SQLitePCLRaw.config.e_sqlite3-3.0.5.txt",
+        "evidence":  "ericsink/SQLitePCL.raw@96043b8cff323f21919df86a431c136655d81b4a / SQLitePCL.raw-96043b8cff323f21919df86a431c136655d81b4a/LICENSE.TXT",
+        "license":  "Apache-2.0"
+    },
+    {
+        "id":  "SQLitePCLRaw.core",
+        "version":  "3.0.5",
+        "sourceFile":  "vendor/sources/ericsink-SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4.zip",
+        "sourceCommit":  "ed046114d5a30534e13294d94d78eb73de896ad4",
+        "notice":  "notices/SQLitePCLRaw.core-3.0.5.txt",
+        "evidence":  "ericsink/SQLitePCL.raw@ed046114d5a30534e13294d94d78eb73de896ad4 / SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4/LICENSE.TXT",
+        "license":  "Apache-2.0"
+    },
+    {
+        "id":  "SQLitePCLRaw.provider.e_sqlite3",
+        "version":  "3.0.5",
+        "sourceFile":  "vendor/sources/ericsink-SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4.zip",
+        "sourceCommit":  "ed046114d5a30534e13294d94d78eb73de896ad4",
+        "notice":  "notices/SQLitePCLRaw.provider.e_sqlite3-3.0.5.txt",
+        "evidence":  "ericsink/SQLitePCL.raw@ed046114d5a30534e13294d94d78eb73de896ad4 / SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4/LICENSE.TXT",
+        "license":  "Apache-2.0"
+    },
+    {
+        "id":  "StrongInject",
+        "version":  "1.4.4",
+        "sourceFile":  "vendor/sources/YairHalberstadt-stronginject-6f3077c68b1ebd9c56663456efb67ef90886942e.zip",
+        "sourceCommit":  "6f3077c68b1ebd9c56663456efb67ef90886942e",
+        "notice":  "notices/StrongInject-1.4.4.txt",
+        "evidence":  "YairHalberstadt/stronginject@6f3077c68b1ebd9c56663456efb67ef90886942e / stronginject-6f3077c68b1ebd9c56663456efb67ef90886942e/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "System.IO.Abstractions",
+        "version":  "22.0.16",
+        "sourceFile":  "vendor/sources/TestableIO-System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78.zip",
+        "sourceCommit":  "863b7048305fbdb4d31cf4bb77da98aec7bede78",
+        "notice":  "notices/System.IO.Abstractions-22.0.16.txt",
+        "evidence":  "TestableIO/System.IO.Abstractions@863b7048305fbdb4d31cf4bb77da98aec7bede78 / System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "System.Reactive",
+        "version":  "6.0.1",
+        "sourceFile":  "vendor/sources/dotnet-reactive-1cfc6465d1c9c6144d5b4e6420240f2767c8f85c.zip",
+        "sourceCommit":  "1cfc6465d1c9c6144d5b4e6420240f2767c8f85c",
+        "notice":  "notices/System.Reactive-6.0.1.txt",
+        "evidence":  "dotnet/reactive@1cfc6465d1c9c6144d5b4e6420240f2767c8f85c / reactive-1cfc6465d1c9c6144d5b4e6420240f2767c8f85c/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "TestableIO.System.IO.Abstractions",
+        "version":  "22.0.16",
+        "sourceFile":  "vendor/sources/TestableIO-System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78.zip",
+        "sourceCommit":  "863b7048305fbdb4d31cf4bb77da98aec7bede78",
+        "notice":  "notices/TestableIO.System.IO.Abstractions-22.0.16.txt",
+        "evidence":  "TestableIO/System.IO.Abstractions@863b7048305fbdb4d31cf4bb77da98aec7bede78 / System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "TestableIO.System.IO.Abstractions.Wrappers",
+        "version":  "22.0.16",
+        "sourceFile":  "vendor/sources/TestableIO-System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78.zip",
+        "sourceCommit":  "863b7048305fbdb4d31cf4bb77da98aec7bede78",
+        "notice":  "notices/TestableIO.System.IO.Abstractions.Wrappers-22.0.16.txt",
+        "evidence":  "TestableIO/System.IO.Abstractions@863b7048305fbdb4d31cf4bb77da98aec7bede78 / System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "Testably.Abstractions.FileSystem.Interface",
+        "version":  "9.0.0",
+        "sourceFile":  "vendor/sources/Testably-Testably.Abstractions-e3f60b39df247720d64485067b2f30abcb9a63f1.zip",
+        "sourceCommit":  "e3f60b39df247720d64485067b2f30abcb9a63f1",
+        "notice":  "notices/Testably.Abstractions.FileSystem.Interface-9.0.0.txt",
+        "evidence":  "Testably/Testably.Abstractions@e3f60b39df247720d64485067b2f30abcb9a63f1 / Testably.Abstractions-e3f60b39df247720d64485067b2f30abcb9a63f1/LICENSE",
+        "license":  "MIT"
+    },
+    {
+        "id":  "ValveKeyValue",
+        "version":  "0.10.0.360",
+        "sourceFile":  "vendor/sources/ValveResourceFormat-ValveKeyValue-1e95e84c83b32b1263912cdec188064a8fed0bdb.zip",
+        "sourceCommit":  "1e95e84c83b32b1263912cdec188064a8fed0bdb",
+        "notice":  "notices/ValveKeyValue-0.10.0.360.txt",
+        "evidence":  "ValveResourceFormat/ValveKeyValue@1e95e84c83b32b1263912cdec188064a8fed0bdb / ValveKeyValue-1e95e84c83b32b1263912cdec188064a8fed0bdb/LICENSE",
+        "license":  "MIT"
+    }
+]

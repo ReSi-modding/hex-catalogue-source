@@ -1,0 +1,11 @@
+**/obj/
+**/bin/
+**/.vs/
+*.user
+*.suo
+*.pdb
+.env*
+*.dpapi
+*.sqlite
+*.sqlite3
+build-output/

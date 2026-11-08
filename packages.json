@@ -1,0 +1,289 @@
+﻿[
+    {
+        "lockedContentHash":  "muyroan6rKrf0omZL8UF7Kw5uOGp/yBg1L/XWvkFN3WhKaNtK2IWqRZw93nIwVqjhTVDO0l4CEGhHIh+mb+sKg==",
+        "file":  "vendor/packages/microsoft.data.sqlite.10.0.14.nupkg",
+        "archiveSha512":  "K37udQU2dojYZuCUT9F8TlZTAxzE0XOkqUfgIM2+2Lj7yJnfoNhpLmxAp6eSL281R6ncc4uhIAvTxSpv1qjgVA==",
+        "id":  "Microsoft.Data.Sqlite",
+        "version":  "10.0.14"
+    },
+    {
+        "lockedContentHash":  "o/aoTwOsrBB+lDrRvhTD1R5rSKDPwosoAui9Xa4NdCvQbe2usxkI6ZTBWHWmXHlUzunvdjH74KmNzy43C+WjoA==",
+        "file":  "vendor/packages/mutagen.bethesda.skyrim.0.53.1.nupkg",
+        "archiveSha512":  "L2X6A35MFngG8b4EXySkpjzdFWlaHhNeeEPsQLB2AlXCBfptRTbkrqgmZ1vH1EzGGeucH6Qoo/vhAR6nTkzPIQ==",
+        "id":  "Mutagen.Bethesda.Skyrim",
+        "version":  "0.53.1"
+    },
+    {
+        "lockedContentHash":  "W8AY8DB8Cy8s3Kp/Yuw2M7VoUZunFK6GvTHtGbrD5t4cONOHzToLgn+AwUtoM6Eq22cpHuIh5ulO+h7iOvAgZw==",
+        "file":  "vendor/packages/nifly.1.1.0.nupkg",
+        "archiveSha512":  "FZ4eihc4QzliW2CPBT2WI76ZTw62pbekTiWcllQMsVA/+0T1Zrpn514djfhaZqmXfwKo3S/UblrwTNh8cyNcfA==",
+        "id":  "Nifly",
+        "version":  "1.1.0"
+    },
+    {
+        "lockedContentHash":  "B3KDFyxY1NTqbeqGEaOM9uE+G71GG2TxWqVSs57e1pWYPf2vNLMIxk+x55MXdkon0iGeaekolFTlLS2CkgktYg==",
+        "file":  "vendor/packages/pfim.0.11.4.nupkg",
+        "archiveSha512":  "ohVU79fkrsiHX3DUq2TfHspFpk0jwZKPG8qamKjEyjlF1rj0Woa+PiPRGfeIIK8oKQ+7bQCdk+DBnFBqqdFeFw==",
+        "id":  "Pfim",
+        "version":  "0.11.4"
+    },
+    {
+        "lockedContentHash":  "aXPX39R0Vgivhi95Z82TRenG56bSOs+Hnt8h1GV0nmfuRaANObd3LC44eoZwszmQqALjaV3ZnBQRej8m5E0L4Q==",
+        "file":  "vendor/packages/sourcegear.sqlite3.3.53.4.nupkg",
+        "archiveSha512":  "W2mME6FU2IfIF3Agdr9loSiLTWRndIgFsLTim6pRxSV9WsrzkxV+ikjm32a2jiHGWW920qXT4R+cVHpgb2BTdA==",
+        "id":  "SourceGear.sqlite3",
+        "version":  "3.53.4"
+    },
+    {
+        "lockedContentHash":  "SW8iASIyWMrLzqabUHYQRvALhvD4ylSBsj4PgEVGwc36kQjc9xT5kSV/XQ9rU7nIpBWD+LPyX3Hlw5FzyUzGeQ==",
+        "file":  "vendor/packages/sqlitepclraw.bundle_e_sqlite3.3.0.5.nupkg",
+        "archiveSha512":  "EvmAAUwl8MPiDHszFBiTP8hMdjW2VZfOqwnCDqAMBVBDyGa++GFOprw416SE2P8znUOHu+dgvIkvTicCzSOrLw==",
+        "id":  "SQLitePCLRaw.bundle_e_sqlite3",
+        "version":  "3.0.5"
+    },
+    {
+        "lockedContentHash":  "+SoDTbuzY9j0K+sZfRbbVpGjjylkVMhUQnw6qiPhxzYLBJlwxFpmunXSaNBtTxwC2C9d/XIp0kO7VhMAVuUt7w==",
+        "file":  "vendor/packages/dynamicdata.9.4.1.nupkg",
+        "archiveSha512":  "UvFUHBobX7roisFZl033LdipHFlJ6zAjZJG1Qi08/gHNS47NkDgoW0QSXEcCAHqmk3eAyGh43gibsu3WddBy/w==",
+        "id":  "DynamicData",
+        "version":  "9.4.1"
+    },
+    {
+        "lockedContentHash":  "yR3PD1SWKirYNpQ/t9TjJrsp1adazMmozLDPeamvSIljLAIjS0EQyyGvoupWsbZEryqW9SHbKXVL8YaJwURk8w==",
+        "file":  "vendor/packages/fluentresults.3.15.2.nupkg",
+        "archiveSha512":  "NpUFoLIF/cPk627CfTEpjnGJYOhX608AOCKZnzs5q0I79txMaSL+MsCXRZ+y6tC1qCKCk5pO3vZDJtOhOHzBcg==",
+        "id":  "FluentResults",
+        "version":  "3.15.2"
+    },
+    {
+        "lockedContentHash":  "EtFrqjxJEqW+qe8YyEH6l5dv1NFL3hHfSiU1hu37sXFmM1B2o9fQZE/78EjU8IrFcMQEW624alARtbYyooTXKQ==",
+        "file":  "vendor/packages/gamefinder.common.4.4.0.nupkg",
+        "archiveSha512":  "FFEtVMmWnC11xs9oz4AsmA1I0tqFjlgpGjtBcYKMIyCxSbnXKd5SJKvgA9OJEtJcLrs3DMvhFWyH0Uplp0uR2A==",
+        "id":  "GameFinder.Common",
+        "version":  "4.4.0"
+    },
+    {
+        "lockedContentHash":  "Ee1tvQQz/tOnBjkuYbkHAmEx+Atk1v9t8TzhPOomZGKAwkBEvB45AxR3jG/g8kvqxU7l4FQmI48KE2Xel0/usQ==",
+        "file":  "vendor/packages/gamefinder.registryutils.4.4.0.nupkg",
+        "archiveSha512":  "VLKDSWiMeXmUfRylRccfH0S31whwEV6YjpMR2TzyykMf1B0WayaZNVLUuk+VRoB57eqSRPHayrJht+iPZMf+EA==",
+        "id":  "GameFinder.RegistryUtils",
+        "version":  "4.4.0"
+    },
+    {
+        "lockedContentHash":  "CMLhj2VjxTqr+xzWYM72bC2hxrSaZLOUWyCTXORMecZDY7ChPsxr/UXkv4mlgfGx22Glla3ICoT7YE+NkSvZcQ==",
+        "file":  "vendor/packages/gamefinder.storehandlers.gog.4.4.0.nupkg",
+        "archiveSha512":  "5VkbrYtIbs//+ut6UQAILK5N7HPuKcoOyrbueIVg8O2A6ZMdUp+ryVT9t2dsM2ilplqLD/Ce93FwprsKVxlotw==",
+        "id":  "GameFinder.StoreHandlers.GOG",
+        "version":  "4.4.0"
+    },
+    {
+        "lockedContentHash":  "2G82q9O161spLM5A2fLnn/mi8yy+H1uGxep30a58vcHs8hoDuLrhc/s4Fnt2SqxIxhrLSbzJ5Fb6zFvny0PGdw==",
+        "file":  "vendor/packages/gamefinder.storehandlers.steam.4.4.0.nupkg",
+        "archiveSha512":  "wI82QS8uFnVMn3NebFqURC+5mb0aQb1r0rFFrGzy9vKW33CsHpduqfl/WuJD5qtEH4zmMfXNHDP+KjMUYZH1ng==",
+        "id":  "GameFinder.StoreHandlers.Steam",
+        "version":  "4.4.0"
+    },
+    {
+        "lockedContentHash":  "mgaPtUSjT6NWQy7Eh6EsSxZaElEflvINLDCCKJCM4sFc2DU2rGbRNkAWNI5UzMppZkhwKOTVwPUMVHAzG5HtKw==",
+        "file":  "vendor/packages/gamefinder.storehandlers.xbox.4.4.0.nupkg",
+        "archiveSha512":  "M01Siu6Tsiiczq0Pw/iTEWt3Igz3JpW2b+40Ehkxf7oNH5LL2KidoDavRVVYOx+T7mu3Cz1557fcxy/lEL/H5A==",
+        "id":  "GameFinder.StoreHandlers.Xbox",
+        "version":  "4.4.0"
+    },
+    {
+        "lockedContentHash":  "TJLXs9blC+h4LPJLl5s111WY56BevpRmIAdA3C1emzvpuCmqSPGWEdHWjW12e1j5vFjYF7RJW5h8GQVuKIElOg==",
+        "file":  "vendor/packages/gamefinder.wine.4.4.0.nupkg",
+        "archiveSha512":  "Oqg6N6qgrBFq4IFl/WK2pK14oZDUeKidioQw9P4xRmCO8HHc+SA1awF5IcDXU2WlF0OzzMJeHqag4TAGGzzkPA==",
+        "id":  "GameFinder.Wine",
+        "version":  "4.4.0"
+    },
+    {
+        "lockedContentHash":  "Ht3UqRCqizBPbB5pvQ/yCNZIChY6Cy5nLn7TKIlJzWnf4pbqGKqDO+AY6MDTD+fXgEzzMb64Qzl4/Hy7vEqfLA==",
+        "file":  "vendor/packages/ini-parser-netstandard.2.5.3.nupkg",
+        "archiveSha512":  "BoF82eQIcnWeCxHYJhPPh5PhtDIjdhj5tPxVN6TdRG2KTESyfLMdJBbXYGnO/K+/dRcPXnB46+iMjKJcBlZcKg==",
+        "id":  "ini-parser-netstandard",
+        "version":  "2.5.3"
+    },
+    {
+        "lockedContentHash":  "LhwlPa7c1zs1OV2XadMtAWdImjLIsqFJPoRcIWAadSRn0Ri1DepK65UbWLPmt4riLqx2d40xjXRk0ogpqNtK7g==",
+        "file":  "vendor/packages/k4os.compression.lz4.1.3.8.nupkg",
+        "archiveSha512":  "34eaDMthZbtqtcybO1dXpqtIUbpmzUgTeglczK8wUMl8YPj5121wcO3YiEDAqPkt+wKbz6prigXG+Y3tXZyO1Q==",
+        "id":  "K4os.Compression.LZ4",
+        "version":  "1.3.8"
+    },
+    {
+        "lockedContentHash":  "P15qr8dZAeo9GvYbUIPEYFQ0MEJ0i5iqr37wsYeRC3la2uCldOoeCa6to0CZ1taiwxIV+Mk8NGuZi+4iWivK9w==",
+        "file":  "vendor/packages/k4os.compression.lz4.streams.1.3.8.nupkg",
+        "archiveSha512":  "dLHAD/rNqf+SRk7DqIVaYgOq0MdMRUgoVtBoUGcfSoGl62MWOsOmSiO2Z3bG6GfO7jqNtdMefYFz3QkAofXGVQ==",
+        "id":  "K4os.Compression.LZ4.Streams",
+        "version":  "1.3.8"
+    },
+    {
+        "lockedContentHash":  "Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
+        "file":  "vendor/packages/k4os.hash.xxhash.1.0.8.nupkg",
+        "archiveSha512":  "mbiWFrBw1PYi7yzuft8jFyeLfybeWL5Dl6wlZ2XY6mcF7thjfAY/76v9Bdgr9CHFe3H2flEUVMeq4LSRcuBurg==",
+        "id":  "K4os.Hash.xxHash",
+        "version":  "1.0.8"
+    },
+    {
+        "lockedContentHash":  "jiwP+Lfp1OqLSowxxK7Vb47aK3cRIbtiKVtqEyRIDMiGg6ULq2L9E6xtsmRF2Kp0mTxwKHjk6MvIpVGbc6xWTw==",
+        "file":  "vendor/packages/loqui.3.2.0.nupkg",
+        "archiveSha512":  "hlwGcLMAOupTFK1zGh7vxcUVOZs2ng5YJORgzef0WwPxMbSLtSS757HtZuoeCo+MWkH/sBa41q2RPZwRMirF8A==",
+        "id":  "Loqui",
+        "version":  "3.2.0"
+    },
+    {
+        "lockedContentHash":  "1p9rO3Q2X/L/9YrYog3vaDzi8u+WZfJCOkDYoHqmofqYP0DLPLPyZcS2Rnh/79JXAodgbs1AgsaNwLpIvC3Xew==",
+        "file":  "vendor/packages/microsoft.data.sqlite.core.10.0.14.nupkg",
+        "archiveSha512":  "/DjPbRUdkJvNKWR5f+OmjxN3jT3WBlNc/TlwJXVkg0CBpKcoWZRrJZSGsdmMgR0g3nNQQ9e1CQdArX6jrhxifA==",
+        "id":  "Microsoft.Data.Sqlite.Core",
+        "version":  "10.0.14"
+    },
+    {
+        "lockedContentHash":  "fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+        "file":  "vendor/packages/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg",
+        "archiveSha512":  "gRjamTLaOCscIjefkWm+qTyrzxf11WwbZhb64jsb8UtKOFObf4QX9j8WGxQCHyY0355Pn6YvX8hGZwGKHZLJZw==",
+        "id":  "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "version":  "8.0.1"
+    },
+    {
+        "lockedContentHash":  "dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
+        "file":  "vendor/packages/microsoft.extensions.logging.abstractions.6.0.1.nupkg",
+        "archiveSha512":  "I+kXTTsfRTCNMkY0YSwmsqpnQlQEvGsetvvXhi2B1wihREzjazLC+0RlHeq9XzmXTUv/hxdz2MPhqY0ZQCH8eg==",
+        "id":  "Microsoft.Extensions.Logging.Abstractions",
+        "version":  "6.0.1"
+    },
+    {
+        "lockedContentHash":  "il9geqcXRha+LzhtE+dYQelxtlwgI6yTeq+fI5S7VSqC7y++XJNNzibm2tau9h0Ncw8cWz8ydD9WTg1QFnGziA==",
+        "file":  "vendor/packages/miniball-devel0.1.0.4.nupkg",
+        "archiveSha512":  "WuI/KLPE16glHfnSevtdcYEOhK6mABpP/yY2gA5GseAoALpqS4VGJLy2ZKsMICO0f4YWZGXMw3GdYMUX+JkTuA==",
+        "id":  "miniball-devel0",
+        "version":  "1.0.4"
+    },
+    {
+        "lockedContentHash":  "1mXh6Gn34diqLePgt28oL85MiTAcsYXs4M0rQbjkbIbN1BZZM4eaWq1ti+KREdhlvYyaounDSiGTwKe+bxd13g==",
+        "file":  "vendor/packages/mutagen.bethesda.core.0.53.1.nupkg",
+        "archiveSha512":  "RdzXOV3oMSdv6EZ7DmaG9xdz6AZd//rCLZmug6vpDHGyNY00+49CXh66yO7kteDX85NdW9TOm2ytSsi9SUbOAg==",
+        "id":  "Mutagen.Bethesda.Core",
+        "version":  "0.53.1"
+    },
+    {
+        "lockedContentHash":  "G1GI/DfxzLqorINq+mWuReT09mh26csTpovb5OXkQlVGjH0X1ml64nWRj93H5ZKZyg48y2FkiXIQwXQFiXbN1w==",
+        "file":  "vendor/packages/mutagen.bethesda.kernel.0.53.1.nupkg",
+        "archiveSha512":  "W8u+H/qVFkIqoLcT4iEPKIDjs7KWdLECDM0fK3Q3w/rH/k3OXkMayF6fLo9boAsfPFlldevLvrEyPR0HodRD3A==",
+        "id":  "Mutagen.Bethesda.Kernel",
+        "version":  "0.53.1"
+    },
+    {
+        "lockedContentHash":  "5pv6XROhpTAMcSNdJncAZmY9q7xuevKLPO1wMOw0vWQBEB2Po9vcwAnxUkNzv4LFzprlXAHa+hKVa+rXoq5P7g==",
+        "file":  "vendor/packages/nexusmods.paths.0.10.0.nupkg",
+        "archiveSha512":  "XjZkHbKHXHmDJqPViMjTwW7UOskj7Feb3l8yXGkutR5Ul28dzN8YqwB3WdyxJyqBb2S98UHM4vSSVjvyI0HADQ==",
+        "id":  "NexusMods.Paths",
+        "version":  "0.10.0"
+    },
+    {
+        "lockedContentHash":  "D5FUFGJfxndk8x8SKWhGOl+C5IdbpjVB+oZ4zPchlrDE0al2QNr822NzYnOB74gCF33VlUx6qSqbS1mCWCe/KQ==",
+        "file":  "vendor/packages/noggog.csharpext.4.1.0.nupkg",
+        "archiveSha512":  "U/B5OWqh95lr1HBSaWBe/862m321dHpQBLTgRFg0sWPMMSHL9BRT5h216PpubhaMXnZg8V3VUX7zkQ0Fdx/rVw==",
+        "id":  "Noggog.CSharpExt",
+        "version":  "4.1.0"
+    },
+    {
+        "lockedContentHash":  "pqpqeK8xQGggExhr4tesVgJkjdn+9HQAO0QgrYV2hFjE3y90okzk1kQMntMiUOGfV7FrCUfKPaVvPBD4IANqKg==",
+        "file":  "vendor/packages/oneof.3.0.271.nupkg",
+        "archiveSha512":  "7RDmnFKnYfVkxojbb1UTZhaCcRf7KQYFV6T1Z3t5gNF+vaPr5xcHmnzvzHEao3UOg016G/BEZnHvIK8ag4UlUQ==",
+        "id":  "OneOf",
+        "version":  "3.0.271"
+    },
+    {
+        "lockedContentHash":  "wld6juhxdyvC5e5Bls39M6kb/cFYgNy3zD88f+PEedp6Tx1ASc4eZxff45fyp5H91zqDDnVNerC/FFjUK74inQ==",
+        "file":  "vendor/packages/reloaded.memory.9.4.1.nupkg",
+        "archiveSha512":  "zPj+0+o07NpTqdjde6QCqUDEqgluvYPsRvHZ9Hvk7aFbdF14YsKUTYYXB4zcBnJaQCaQxaVJlRrCVLQ58fUEwg==",
+        "id":  "Reloaded.Memory",
+        "version":  "9.4.1"
+    },
+    {
+        "lockedContentHash":  "yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+        "file":  "vendor/packages/sharpziplib.1.4.2.nupkg",
+        "archiveSha512":  "TggBlumyBCfRtaviOUPWR8NlYRJHz1cdPPJXWAi+cpS5lXBQrtV/o0Mm74llu7MU4DlEaTIWUC0OuZAlPfyU9A==",
+        "id":  "SharpZipLib",
+        "version":  "1.4.2"
+    },
+    {
+        "lockedContentHash":  "KN7jeWqgUPeBRe1FlcpZURzxomuKKEKHmBBQfg+Nx7NkY1LjKhzHvH+3ASkNvhayESE34nMBinL9CV21JfPRJw==",
+        "file":  "vendor/packages/sqlite.3.53.4.nupkg",
+        "archiveSha512":  "gdFFZIus/ztMjNF5TfmVbEeyKSZEZ6pwAeqaMG5CnOsoVeySllCVQcgvw8m8/wRherPoYWmTJwC9rVsMA8SC7w==",
+        "id":  "SQLite",
+        "version":  "3.53.4"
+    },
+    {
+        "lockedContentHash":  "aSk8WE5tF2MybESMgtZAEyMVCAWA0nBqOMc48HFoa9UoSdtm3goDXVzNRnefeKIwE6bV9NaNXptn1F9ReMQI0Q==",
+        "file":  "vendor/packages/sqlitepclraw.config.e_sqlite3.3.0.5.nupkg",
+        "archiveSha512":  "CiXpXuMj3f64/JINJlUbSv7YVKPZ3agzw1BzMasgQ+DJ8W1iwhAFYDc6/CDlTT9p9Cq91tpude99zA6oYbWvEg==",
+        "id":  "SQLitePCLRaw.config.e_sqlite3",
+        "version":  "3.0.5"
+    },
+    {
+        "lockedContentHash":  "k81AYXXRCw3Zj8rOhyBoCsx/U97KYDFI2CSKr/ijl5BwpsW/hX/4kBiDmerFaoust8nxBwa0IHQFw8MmSHRtnQ==",
+        "file":  "vendor/packages/sqlitepclraw.core.3.0.5.nupkg",
+        "archiveSha512":  "JCCdZVJ+D4K7ThUbYQGV05y0cyiRzh8OK6CWU3HaOB8eY2zZJWrn3Ft2xgTjbTO3ymOv3gnmqKQKmy/LXwGqAw==",
+        "id":  "SQLitePCLRaw.core",
+        "version":  "3.0.5"
+    },
+    {
+        "lockedContentHash":  "um8YSWduhhuskTG2bHfZrBqMNQOydfU8pcseT+cu5RivOGyoUbCrGXxgoRNTmRYw2VbMWnEZVVFcneZT/5dsBg==",
+        "file":  "vendor/packages/sqlitepclraw.provider.e_sqlite3.3.0.5.nupkg",
+        "archiveSha512":  "cW7pWhJGlc5bLiyDRQnmaZFYW1rRhDtMxtE1/geN/i0uhnoug5eN7wm4aRgzNwgDJR95JTflkgNFUFSsJPgsyQ==",
+        "id":  "SQLitePCLRaw.provider.e_sqlite3",
+        "version":  "3.0.5"
+    },
+    {
+        "lockedContentHash":  "apRGISKI+xWW0WYQJHXckQpE9fECP//X5PUaY7jA5R6+m59hTIcr0shySR9Bb7cInDG+0fAG6PLjd1SxlLqe6g==",
+        "file":  "vendor/packages/stronginject.1.4.4.nupkg",
+        "archiveSha512":  "VdkyzC5KY9tOKFAC5GLGYwyUOcC5KvX8CN3923koJ3SKa48EIijYi7AYNmaYqjEJjCFDkvWBs9AN8p641LIN5Q==",
+        "id":  "StrongInject",
+        "version":  "1.4.4"
+    },
+    {
+        "lockedContentHash":  "qDB595QEPyyguFNzKDIiy8MqMBuag4GeU/nJOiRDopwUtc40lLA8acW+/pxNny7s9kEQ3YSKbAOR8xJcjujHFg==",
+        "file":  "vendor/packages/system.io.abstractions.22.0.16.nupkg",
+        "archiveSha512":  "9+ky4rGFIJXt4GmoBbnQK4RbvP5Ue4HdUdH3HO6poxKrEACM1Icg38JWovFgRSsvFTwBCjo15S3iF1C1E05W2g==",
+        "id":  "System.IO.Abstractions",
+        "version":  "22.0.16"
+    },
+    {
+        "lockedContentHash":  "rHaWtKDwCi9qJ3ObKo8LHPMuuwv33YbmQi7TcUK1C264V3MFnOr5Im7QgCTdLniztP3GJyeiSg5x8NqYJFqRmg==",
+        "file":  "vendor/packages/system.reactive.6.0.1.nupkg",
+        "archiveSha512":  "W3r2N7ShZ/ZqKcuW8zObyLsfHNJ5tctf+Vedilbo5nR8YjFYCoPoyQWZnoJYbAH94A8vTzgmywwR0pM6B0l39A==",
+        "id":  "System.Reactive",
+        "version":  "6.0.1"
+    },
+    {
+        "lockedContentHash":  "ZYDFchhWab1FELpnJUJI3gHX/jAEKLiENnnKmUWyGjR6BklGhItxU2rCmwzwMXsd6C2CUpMU+YSXlKdpxNPkBQ==",
+        "file":  "vendor/packages/testableio.system.io.abstractions.22.0.16.nupkg",
+        "archiveSha512":  "LIwWhp2OA2oIM+bk0Q1l9KxA7KzrKidcmzByDhBVwyZnhunBKjsf1d+A6MFMdmPRx+0Aw6PTLRqhwFBp14nLMA==",
+        "id":  "TestableIO.System.IO.Abstractions",
+        "version":  "22.0.16"
+    },
+    {
+        "lockedContentHash":  "QUX0TLMvnRLEgvuMRotrZKN9eCdX4yzK7HJCaPj17T4jvUf+G4XifdLpB5wmRct2zKlscYzpWMOmHjKabse3yw==",
+        "file":  "vendor/packages/testableio.system.io.abstractions.wrappers.22.0.16.nupkg",
+        "archiveSha512":  "fjdb7QL2KV0tufiC13ZWDIbUxeQfuN97fmOyWh+X7U5MTIE/EJEWGom7SiQ3+G8TGfUB4mv5pY3SofY6wqowUA==",
+        "id":  "TestableIO.System.IO.Abstractions.Wrappers",
+        "version":  "22.0.16"
+    },
+    {
+        "lockedContentHash":  "uksk86YlnzAdyfVNu3wICU0X5iXVe9LF7Q3UkngNliHWEvM5gvAlOUr+jmd9JwmbJWISH5+i1vyXE02lEVz7WQ==",
+        "file":  "vendor/packages/testably.abstractions.filesystem.interface.9.0.0.nupkg",
+        "archiveSha512":  "P1WTQa5beCREsg3jLqcRYPKAK9kFKl9drY9hWtmEP5t6Zy7qlPuN/Ucwue4m/l5K5iQo1ReQag9haKQnQukMdw==",
+        "id":  "Testably.Abstractions.FileSystem.Interface",
+        "version":  "9.0.0"
+    },
+    {
+        "lockedContentHash":  "APiKxT2Qyg/Kpgylpd/Oylta9xL076qj5cWkN+bpDPrpVhsM6FKQG5nELBao2eGXeqIeGI8LUQQ9Q4Sppix6Cw==",
+        "file":  "vendor/packages/valvekeyvalue.0.10.0.360.nupkg",
+        "archiveSha512":  "Fhf7V0kGj09aLJni88VQTnLVc6XIB+2tDq6NqVwiyKHPpkfGIUm2C64KN0QbXoDYVmUzFxNegIuqPNiiV4lwyw==",
+        "id":  "ValveKeyValue",
+        "version":  "0.10.0.360"
+    }
+]

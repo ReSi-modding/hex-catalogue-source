@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><LangVersion>12.0</LangVersion>
+    <TargetFramework Condition="'$(HexCatalogueFramework)'==''">net8.0</TargetFramework>
+    <TargetFramework Condition="'$(HexCatalogueFramework)'!=''">$(HexCatalogueFramework)</TargetFramework>
+    <SqlitePackageVersion>8.0.22</SqlitePackageVersion>
+    <SqlitePackageVersion Condition="'$(HexCatalogueFramework)'=='net10.0'">10.0.14</SqlitePackageVersion>
+    <NuGetLockFilePath Condition="'$(HexCatalogueFramework)'=='net10.0'">packages.net10.lock.json</NuGetLockFilePath>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <NuGetAudit>true</NuGetAudit><NuGetAuditMode>all</NuGetAuditMode>
+    <AssemblyName>ScriptDesk.Indexer</AssemblyName><Version>0.3.5</Version>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(HexTestBuild)'=='true'"><DefineConstants>$(DefineConstants);HEX_TEST_BUILD</DefineConstants></PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../SharedCore/Licensing/Trust.json" LogicalName="HEX.LicenseTrust" />
+    <PackageReference Include="Mutagen.Bethesda.Skyrim" Version="[0.53.1]" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="[$(SqlitePackageVersion)]" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="[3.0.5]" />
+    <PackageReference Include="SourceGear.sqlite3" Version="[3.53.4]" />
+    <PackageReference Include="Pfim" Version="[0.11.4]" />
+    <PackageReference Include="Nifly" Version="[1.1.0]" />
+  </ItemGroup>
+</Project>

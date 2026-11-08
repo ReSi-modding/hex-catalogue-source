@@ -1,0 +1,9 @@
+SQLite 3.53.4
+Authors: Eric Sink
+Evidence: Exact NuGet license file
+
+
+SQLite is Public Domain
+
+https://sqlite.org/copyright.html
+

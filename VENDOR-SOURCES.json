@@ -1,0 +1,463 @@
+﻿[
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  123,
+        "upstreamSha256":  "828846edb275a16186c02f6a13f36390ce7b25f30cc81753cd1395ddb607f766",
+        "omittedFiles":  87,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/erri120-GameFinder-bb462fbf9babae29375e29ec6833d8b595b3ab27.zip",
+        "upstreamUrl":  "https://codeload.github.com/erri120/GameFinder/zip/bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "packages":  [
+                         "GameFinder.Common@4.4.0",
+                         "GameFinder.RegistryUtils@4.4.0",
+                         "GameFinder.StoreHandlers.GOG@4.4.0",
+                         "GameFinder.StoreHandlers.Steam@4.4.0",
+                         "GameFinder.StoreHandlers.Xbox@4.4.0",
+                         "GameFinder.Wine@4.4.0"
+                     ],
+        "commit":  "bb462fbf9babae29375e29ec6833d8b595b3ab27",
+        "sha256":  "0bda801eee20c3684355a902bf06ee964a5eff6e69ec2a3608ba014f91ca454a",
+        "repository":  "erri120/GameFinder"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  647,
+        "upstreamSha256":  "f560dd99ed5283caebcdc883f8106d9dee91aef7a22acca7da75ea4fc7854546",
+        "omittedFiles":  10,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/reactiveui-DynamicData-758ef92ae5b41a78f937add6a9438c9fed39481d.zip",
+        "upstreamUrl":  "https://codeload.github.com/reactiveui/DynamicData/zip/758ef92ae5b41a78f937add6a9438c9fed39481d",
+        "packages":  [
+                         "DynamicData@9.4.1"
+                     ],
+        "commit":  "758ef92ae5b41a78f937add6a9438c9fed39481d",
+        "sha256":  "1f068cc3e52b95fe83dd31508a90cf395a794dba5ac974174afcc4c6bad1df01",
+        "repository":  "reactiveui/DynamicData"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  154,
+        "upstreamSha256":  "8e8344225658c41b4dd07381fd046207b03fe1556633c8f5c3727f612a26f373",
+        "omittedFiles":  3,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/altmann-FluentResults-8b675de7e8b6e4c0921e95138c99e15fd52cde40.zip",
+        "upstreamUrl":  "https://codeload.github.com/altmann/FluentResults/zip/8b675de7e8b6e4c0921e95138c99e15fd52cde40",
+        "packages":  [
+                         "FluentResults@3.15.2"
+                     ],
+        "commit":  "8b675de7e8b6e4c0921e95138c99e15fd52cde40",
+        "sha256":  "ad0b6d68ac1b3f244a3175225323e5f593ec8ad099e3e9fcbf7734d86d0462df",
+        "repository":  "altmann/FluentResults"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  165,
+        "upstreamSha256":  "6232e88352f2fd7c3785ab316933b2c18d6a74349ff7cf8a1c63f32d9cc3fd1e",
+        "omittedFiles":  1,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/Noggog-Loqui-a370205845bfe2e23749f31304a5fc9ee3d30ee0.zip",
+        "upstreamUrl":  "https://codeload.github.com/Noggog/Loqui/zip/a370205845bfe2e23749f31304a5fc9ee3d30ee0",
+        "packages":  [
+                         "Loqui@3.2.0"
+                     ],
+        "commit":  "a370205845bfe2e23749f31304a5fc9ee3d30ee0",
+        "sha256":  "f20f20e3e4e986df5d797446a141f0737cb32fcba48709b30be695a8ae67603a",
+        "repository":  "Noggog/Loqui"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  1894,
+        "upstreamSha256":  "bd7bc63dd27648db435e21246dc9ea94ce50fb57230ab072984ccc0c42c838c0",
+        "omittedFiles":  54280,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/dotnet-runtime-c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663.zip",
+        "upstreamUrl":  "https://codeload.github.com/dotnet/runtime/zip/c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663",
+        "packages":  [
+                         "Microsoft.Extensions.Logging.Abstractions@6.0.1"
+                     ],
+        "commit":  "c24d9a9c91c5d04b7b4de71f1a9f33ac35e09663",
+        "sha256":  "a1d21a00133655cc5ff035e029d4fa999f55fba85f1903843e382d8ddcacf1a9",
+        "repository":  "dotnet/runtime"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  2190,
+        "upstreamSha256":  "38b4eb22d48a34ebc63ca0bba488e11e9d92d950a52610516437d520055c1bfa",
+        "omittedFiles":  56661,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/dotnet-runtime-9f4b1f5d664afdfc80e1508ab7ed099dff210fbd.zip",
+        "upstreamUrl":  "https://codeload.github.com/dotnet/runtime/zip/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd",
+        "packages":  [
+                         "Microsoft.Extensions.DependencyInjection.Abstractions@8.0.1"
+                     ],
+        "commit":  "9f4b1f5d664afdfc80e1508ab7ed099dff210fbd",
+        "sha256":  "d241f498ac6277fef1584d7966d69393dcd68ff407507f4f11e56550b446a2bb",
+        "repository":  "dotnet/runtime"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  91,
+        "upstreamSha256":  "319b269a770e03246241bc8698275f18ce01904514cdd4c86d78221186e00880",
+        "omittedFiles":  66,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/Nexus-Mods-NexusMods.Paths-6c7b575e96d712056e7c75cd366ac17e55925dbf.zip",
+        "upstreamUrl":  "https://codeload.github.com/Nexus-Mods/NexusMods.Paths/zip/6c7b575e96d712056e7c75cd366ac17e55925dbf",
+        "packages":  [
+                         "NexusMods.Paths@0.10.0"
+                     ],
+        "commit":  "6c7b575e96d712056e7c75cd366ac17e55925dbf",
+        "sha256":  "b473cb2188c7e83848478de0e32952f89f8a1e5815270a011d777ee0f3eede37",
+        "repository":  "Nexus-Mods/NexusMods.Paths"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  108,
+        "upstreamSha256":  "7b7b783cb4917ac5a7f2aee113295b17ba2eb2bbd1e0738838a0e4c90b8d1913",
+        "omittedFiles":  58,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/ousnius-NiflySharp-7b55e88a749fd6b6b5ca23a1c18f4b1aed207634.zip",
+        "upstreamUrl":  "https://codeload.github.com/ousnius/NiflySharp/zip/7b55e88a749fd6b6b5ca23a1c18f4b1aed207634",
+        "packages":  [
+                         "Nifly@1.1.0"
+                     ],
+        "commit":  "7b55e88a749fd6b6b5ca23a1c18f4b1aed207634",
+        "sha256":  "e377d69190f0aef171b494cb5b0ce1b69db15d96dd028bcbf98acf9355893e1e",
+        "repository":  "ousnius/NiflySharp"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  106,
+        "upstreamSha256":  "e44a7c0c721eeb2edcc4cbf779d8de39b274b0def6e1c1182c2453e76128d7b4",
+        "omittedFiles":  0,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/mcintyre321-OneOf-6e02dbe75d0f20f198c640d4c04190a85c5ac9e6.zip",
+        "upstreamUrl":  "https://codeload.github.com/mcintyre321/OneOf/zip/6e02dbe75d0f20f198c640d4c04190a85c5ac9e6",
+        "packages":  [
+                         "OneOf@3.0.271"
+                     ],
+        "commit":  "6e02dbe75d0f20f198c640d4c04190a85c5ac9e6",
+        "sha256":  "a63d1622b8b0ebfff3f33108df8a712ed9bbf7555ccf1e526a036750b4d7ee45",
+        "repository":  "mcintyre321/OneOf"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  476,
+        "upstreamSha256":  "5e71bbe4781ad56426db0dde76dc70863c143965b3283e9b920a016706fbc710",
+        "omittedFiles":  0,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/Noggog-CSharpExt-de16c021f62802746a4ebb7a51a2cde676fb37d7.zip",
+        "upstreamUrl":  "https://codeload.github.com/Noggog/CSharpExt/zip/de16c021f62802746a4ebb7a51a2cde676fb37d7",
+        "packages":  [
+                         "Noggog.CSharpExt@4.1.0"
+                     ],
+        "commit":  "de16c021f62802746a4ebb7a51a2cde676fb37d7",
+        "sha256":  "a40616d6c7b772bd0308eefb744f0749c2fe34a1c23fd822d6375bfeaba0c197",
+        "repository":  "Noggog/CSharpExt"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  369,
+        "upstreamSha256":  "dee76dcef0dc43c1f63661f2df3e79ee4d2b9f0005158d3997bb3b6eb3e40e2f",
+        "omittedFiles":  59,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/icsharpcode-SharpZipLib-33f64eb0f28cdd2b084cb822fcc224c7c5aba553.zip",
+        "upstreamUrl":  "https://codeload.github.com/icsharpcode/SharpZipLib/zip/33f64eb0f28cdd2b084cb822fcc224c7c5aba553",
+        "packages":  [
+                         "SharpZipLib@1.4.2"
+                     ],
+        "commit":  "33f64eb0f28cdd2b084cb822fcc224c7c5aba553",
+        "sha256":  "bb5af5facad4ec7ef9e2202bf9317b5ad71d450d63c8052ebc1cb9268168502a",
+        "repository":  "icsharpcode/SharpZipLib"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  182,
+        "upstreamSha256":  "df2092daed89c2b902447e4c453c5e4ab6c0ab560e9ac5b133d914f71a5fba1e",
+        "omittedFiles":  40,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/ericsink-SQLitePCL.raw-96043b8cff323f21919df86a431c136655d81b4a.zip",
+        "upstreamUrl":  "https://codeload.github.com/ericsink/SQLitePCL.raw/zip/96043b8cff323f21919df86a431c136655d81b4a",
+        "packages":  [
+                         "SQLitePCLRaw.config.e_sqlite3@3.0.5"
+                     ],
+        "commit":  "96043b8cff323f21919df86a431c136655d81b4a",
+        "sha256":  "b56638dd7a8f11922a608830eb7541dc1563741a4b44d99ed44f75644876ff28",
+        "repository":  "ericsink/SQLitePCL.raw"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  185,
+        "upstreamSha256":  "3c2475858576816e12517da57c7216826dd815247852c1ba25387ed45810cf2b",
+        "omittedFiles":  40,
+        "provenance":  "Maintainer repository refs/tags/v3.0.5, matching core/provider recorded source commit",
+        "sourceFile":  "vendor/sources/ericsink-SQLitePCL.raw-ed046114d5a30534e13294d94d78eb73de896ad4.zip",
+        "upstreamUrl":  "https://codeload.github.com/ericsink/SQLitePCL.raw/zip/ed046114d5a30534e13294d94d78eb73de896ad4",
+        "packages":  [
+                         "SQLitePCLRaw.core@3.0.5",
+                         "SQLitePCLRaw.provider.e_sqlite3@3.0.5",
+                         "SQLitePCLRaw.bundle_e_sqlite3@3.0.5"
+                     ],
+        "commit":  "ed046114d5a30534e13294d94d78eb73de896ad4",
+        "sha256":  "b2ec569f768f5ec9cc6747975d7d3edf43e8d650fc9d71087c53b8fbfa732522",
+        "repository":  "ericsink/SQLitePCL.raw"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  92,
+        "upstreamSha256":  "fcc476895bed437168894dadd94564e1ceb0dd95214ac12693e7c9757769cb87",
+        "omittedFiles":  74,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/nickbabcock-Pfim-0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d.zip",
+        "upstreamUrl":  "https://codeload.github.com/nickbabcock/Pfim/zip/0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d",
+        "packages":  [
+                         "Pfim@0.11.4"
+                     ],
+        "commit":  "0a00d8152ca4dc0e0a5821c6b8fd5261fca1e84d",
+        "sha256":  "8e1676181e8e260786c8d404fcf6d965632ccd3518849d92f7231863c2fcc11e",
+        "repository":  "nickbabcock/Pfim"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  246,
+        "upstreamSha256":  "f2127a42fd7d5d845311d7c215e5abca60063d9e8d354b76f815571e42783e4d",
+        "omittedFiles":  15,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/YairHalberstadt-stronginject-6f3077c68b1ebd9c56663456efb67ef90886942e.zip",
+        "upstreamUrl":  "https://codeload.github.com/YairHalberstadt/stronginject/zip/6f3077c68b1ebd9c56663456efb67ef90886942e",
+        "packages":  [
+                         "StrongInject@1.4.4"
+                     ],
+        "commit":  "6f3077c68b1ebd9c56663456efb67ef90886942e",
+        "sha256":  "acfbd40d21dc1dda7366ea97542abc4a0534c344ff856e5e3903fba48847d04f",
+        "repository":  "YairHalberstadt/stronginject"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  119,
+        "upstreamSha256":  "eb17cca119f053303a59491da32c54ab604a60abfcaa6e03794a416f349dbd0a",
+        "omittedFiles":  139,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/TestableIO-System.IO.Abstractions-863b7048305fbdb4d31cf4bb77da98aec7bede78.zip",
+        "upstreamUrl":  "https://codeload.github.com/TestableIO/System.IO.Abstractions/zip/863b7048305fbdb4d31cf4bb77da98aec7bede78",
+        "packages":  [
+                         "System.IO.Abstractions@22.0.16",
+                         "TestableIO.System.IO.Abstractions@22.0.16",
+                         "TestableIO.System.IO.Abstractions.Wrappers@22.0.16"
+                     ],
+        "commit":  "863b7048305fbdb4d31cf4bb77da98aec7bede78",
+        "sha256":  "9d1ebc46904866b3861c0a31e10234807005ab56f12229c60afb4342dfbd83e1",
+        "repository":  "TestableIO/System.IO.Abstractions"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  304,
+        "upstreamSha256":  "c621a24ea2981ee97556e2a0f8f8c13d77ef3d3e95096086ed23f2cbd5bef949",
+        "omittedFiles":  374,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/Testably-Testably.Abstractions-e3f60b39df247720d64485067b2f30abcb9a63f1.zip",
+        "upstreamUrl":  "https://codeload.github.com/Testably/Testably.Abstractions/zip/e3f60b39df247720d64485067b2f30abcb9a63f1",
+        "packages":  [
+                         "Testably.Abstractions.FileSystem.Interface@9.0.0"
+                     ],
+        "commit":  "e3f60b39df247720d64485067b2f30abcb9a63f1",
+        "sha256":  "a5cc2dd7b38b565bcda1b360dfffe6577c4d9f0ef62b4f067cc518745e2e7148",
+        "repository":  "Testably/Testably.Abstractions"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  204,
+        "upstreamSha256":  "d4b836c9f8678b1ab408974c775919595cce7ee2023e1526a456a4527bc69152",
+        "omittedFiles":  1,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/ValveResourceFormat-ValveKeyValue-1e95e84c83b32b1263912cdec188064a8fed0bdb.zip",
+        "upstreamUrl":  "https://codeload.github.com/ValveResourceFormat/ValveKeyValue/zip/1e95e84c83b32b1263912cdec188064a8fed0bdb",
+        "packages":  [
+                         "ValveKeyValue@0.10.0.360"
+                     ],
+        "commit":  "1e95e84c83b32b1263912cdec188064a8fed0bdb",
+        "sha256":  "3ff013d7a145b9f1b6cd018f01a03e8c9f8bfae1da18e96b6b785ddd18dac447",
+        "repository":  "ValveResourceFormat/ValveKeyValue"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  7079,
+        "upstreamSha256":  "9c41fdca1f6bbf3093b5e5eda5847d255eb4dad2a52eea0195c492d96bb54965",
+        "omittedFiles":  70,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/Mutagen-Modding-Mutagen-bdbb6ff6faad3b4c3b0689e98e889ecd205068c8.zip",
+        "upstreamUrl":  "https://codeload.github.com/Mutagen-Modding/Mutagen/zip/bdbb6ff6faad3b4c3b0689e98e889ecd205068c8",
+        "packages":  [
+                         "Mutagen.Bethesda.Core@0.53.1",
+                         "Mutagen.Bethesda.Kernel@0.53.1",
+                         "Mutagen.Bethesda.Skyrim@0.53.1"
+                     ],
+        "commit":  "bdbb6ff6faad3b4c3b0689e98e889ecd205068c8",
+        "sha256":  "f8d277fe3d5de4786c324a979a018a2f0eb83bfd1f1b3668e9c943a9c77ee44d",
+        "repository":  "Mutagen-Modding/Mutagen"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  1709,
+        "upstreamSha256":  "304c19dcd0b7dde8a49072d5e5c085eba1035c34553580aa75db7e85e19865c0",
+        "omittedFiles":  361,
+        "provenance":  "Exact repository commit recorded in restored NuGet package metadata",
+        "sourceFile":  "vendor/sources/dotnet-reactive-1cfc6465d1c9c6144d5b4e6420240f2767c8f85c.zip",
+        "upstreamUrl":  "https://codeload.github.com/dotnet/reactive/zip/1cfc6465d1c9c6144d5b4e6420240f2767c8f85c",
+        "packages":  [
+                         "System.Reactive@6.0.1"
+                     ],
+        "commit":  "1cfc6465d1c9c6144d5b4e6420240f2767c8f85c",
+        "sha256":  "1fb65016711aa6918d3228b4c29777658f38d44f980e3ba51cd4b52aabd4dc61",
+        "repository":  "dotnet/reactive"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  23,
+        "upstreamSha256":  "50380ecc31d629c39fad121cbb59e3e7a527e21cdb31f22de78a798d37bd9832",
+        "omittedFiles":  5,
+        "provenance":  "Exact extern/meta gitlink in NexusMods.Paths 6c7b575e96d712056e7c75cd366ac17e55925dbf",
+        "sourceFile":  "vendor/sources/Nexus-Mods-NexusMods.App.Meta-75faebd40fc091fcaf995c6c174867537caf2b05.zip",
+        "upstreamUrl":  "https://codeload.github.com/Nexus-Mods/NexusMods.App.Meta/zip/75faebd40fc091fcaf995c6c174867537caf2b05",
+        "packages":  [
+                         "NexusMods.Paths@0.10.0 build inputs"
+                     ],
+        "commit":  "75faebd40fc091fcaf995c6c174867537caf2b05",
+        "sha256":  "27c8cd97c909180249d3fb76f75cbd0f87c67e5bc9d6c1d52196f36cef74c6e2",
+        "repository":  "Nexus-Mods/NexusMods.App.Meta"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  14,
+        "upstreamSha256":  "3f900e13bea8545bfa7c92508a07237a52d8e2889c06d36f54f69cfe5e10531e",
+        "omittedFiles":  0,
+        "provenance":  "Exact gitlink in NiflySharp 7b55e88a749fd6b6b5ca23a1c18f4b1aed207634",
+        "sourceFile":  "vendor/sources/niftools-nifxml-292bb9403cbf4052c58d66e80906b6bde1700779.zip",
+        "upstreamUrl":  "https://codeload.github.com/niftools/nifxml/zip/292bb9403cbf4052c58d66e80906b6bde1700779",
+        "packages":  [
+                         "Nifly@1.1.0 generator input"
+                     ],
+        "commit":  "292bb9403cbf4052c58d66e80906b6bde1700779",
+        "sha256":  "7ba959f5aa88d870db74782e874b461eb3bc332508005802d2a14eafb304eca8",
+        "repository":  "niftools/nifxml"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  147,
+        "upstreamSha256":  "5e6bccfba07bab69bac9f05bc153d271b39bc1d593d94b4c2079d7a136121aa7",
+        "omittedFiles":  44,
+        "provenance":  "NuGet project URL plus repository commit recorded in the exact package",
+        "sourceFile":  "vendor/sources/Reloaded-Project-Reloaded.Memory-2c31a5e84aa06dbe8e22ed3859b79d8729618fb2.zip",
+        "upstreamUrl":  "https://codeload.github.com/Reloaded-Project/Reloaded.Memory/zip/2c31a5e84aa06dbe8e22ed3859b79d8729618fb2",
+        "packages":  [
+                         "Reloaded.Memory@9.4.1"
+                     ],
+        "commit":  "2c31a5e84aa06dbe8e22ed3859b79d8729618fb2",
+        "sha256":  "c4ed43306683619a07cda4e529fb250b51d8009dd820a323e3575c0655bd6d63",
+        "repository":  "Reloaded-Project/Reloaded.Memory"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  15,
+        "upstreamSha256":  "eb85c59134e4a17701c7c1186df13d82e308ce099f12d4bcd64e60c3a906882c",
+        "omittedFiles":  1,
+        "provenance":  "Exact src/Reloaded.Project.Configurations gitlink in the package source commit",
+        "sourceFile":  "vendor/sources/Reloaded-Project-Reloaded.Project.Configurations-38db64b2a6c6952a66e1fe00cd344bc2f31c4b70.zip",
+        "upstreamUrl":  "https://codeload.github.com/Reloaded-Project/Reloaded.Project.Configurations/zip/38db64b2a6c6952a66e1fe00cd344bc2f31c4b70",
+        "packages":  [
+                         "Reloaded.Memory@9.4.1 build inputs"
+                     ],
+        "commit":  "38db64b2a6c6952a66e1fe00cd344bc2f31c4b70",
+        "sha256":  "76c9c583fb7dea145993859e98f63f2a3acb82424dfd3585c5aa67bf2e10e422",
+        "repository":  "Reloaded-Project/Reloaded.Project.Configurations"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  349,
+        "upstreamSha256":  "3490cabe2233299b88927915930134e9a5401c5c96a4a550f0d895559a8c4f4e",
+        "omittedFiles":  32,
+        "provenance":  "Maintainer repository refs/tags/1.3.8",
+        "sourceFile":  "vendor/sources/MiloszKrajewski-K4os.Compression.LZ4-f5a25b7d72e2e41550fe20662597169ff11c3b60.zip",
+        "upstreamUrl":  "https://codeload.github.com/MiloszKrajewski/K4os.Compression.LZ4/zip/f5a25b7d72e2e41550fe20662597169ff11c3b60",
+        "packages":  [
+                         "K4os.Compression.LZ4@1.3.8",
+                         "K4os.Compression.LZ4.Streams@1.3.8"
+                     ],
+        "commit":  "f5a25b7d72e2e41550fe20662597169ff11c3b60",
+        "sha256":  "034eefc7cca78b70cb10506d43e232050b6e9f31e45c80fd2ebe3dfe26d0fb20",
+        "repository":  "MiloszKrajewski/K4os.Compression.LZ4"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  32,
+        "upstreamSha256":  "d299e84ef519fccfd9f37a224a0f627b69094de917a4d56f0e6b5458c63b4f8a",
+        "omittedFiles":  1,
+        "provenance":  "Maintainer repository refs/tags/1.0.8",
+        "sourceFile":  "vendor/sources/MiloszKrajewski-K4os.Hash.xxHash-c36ef54edbd778c082cab04df7e42cb72a22d887.zip",
+        "upstreamUrl":  "https://codeload.github.com/MiloszKrajewski/K4os.Hash.xxHash/zip/c36ef54edbd778c082cab04df7e42cb72a22d887",
+        "packages":  [
+                         "K4os.Hash.xxHash@1.0.8"
+                     ],
+        "commit":  "c36ef54edbd778c082cab04df7e42cb72a22d887",
+        "sha256":  "6ce019f704fff7c770f86509e42349f1ca39e2a226f34c7a568b97ed17b0fe5f",
+        "repository":  "MiloszKrajewski/K4os.Hash.xxHash"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  12,
+        "upstreamSha256":  "0f2a0d90baf799750d27c761e648b61623ab2df0d69cbe02742fa2a64e9732b8",
+        "omittedFiles":  51,
+        "provenance":  "NuGet-declared source repository; sole C# source/build commit dated March 5 2023, before published package March 15 2023; package version is an external build parameter",
+        "sourceFile":  "vendor/sources/SearchAThing-forks-miniball-d3c3c96494fda777c8fb5d147bf336185d37488f.zip",
+        "upstreamUrl":  "https://codeload.github.com/SearchAThing-forks/miniball/zip/d3c3c96494fda777c8fb5d147bf336185d37488f",
+        "packages":  [
+                         "miniball-devel0@1.0.4"
+                     ],
+        "commit":  "d3c3c96494fda777c8fb5d147bf336185d37488f",
+        "sha256":  "a3b7ab9108148808d118ca357285ce451d7a4b800a0fc2093c9e13a9cf448f5d",
+        "repository":  "SearchAThing-forks/miniball"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  3224,
+        "upstreamSha256":  "011bd90360d9fe303a54ffe5c36c32c6ff16d82e9945ed0efa00db225ce7fe21",
+        "omittedFiles":  2741,
+        "provenance":  "Microsoft dotnet/dotnet 0427b9abbead3fa64c6655eb4290c537397131fa src/source-manifest.json maps efcore to this source commit",
+        "sourceFile":  "vendor/sources/dotnet-efcore-4c96c90aa32d1d339911d82609f80200248c64f1.zip",
+        "upstreamUrl":  "https://codeload.github.com/dotnet/efcore/zip/4c96c90aa32d1d339911d82609f80200248c64f1",
+        "packages":  [
+                         "Microsoft.Data.Sqlite@10.0.14",
+                         "Microsoft.Data.Sqlite.Core@10.0.14"
+                     ],
+        "commit":  "4c96c90aa32d1d339911d82609f80200248c64f1",
+        "sha256":  "fca7f9ce745f88a6e20deff5bee758f6e90e825f0ecd3566af12c0c5cab28ead",
+        "repository":  "dotnet/efcore"
+    },
+    {
+        "omissionPolicy":  "Test/media/generated binaries omitted; production library/generator/build source retained. dotnet/runtime archives contain only the referenced Extensions component, common/build inputs, and notices.",
+        "includedFiles":  64,
+        "upstreamSha256":  "8413ff1699505306e673c375f881404b06412ed9ce164c6de2a84748df86009b",
+        "omittedFiles":  3,
+        "provenance":  "NuGet uploader NanoByte-maintained fork; exact release tag 2.5.3 dated April 6 2025, matching package release.",
+        "sourceFile":  "vendor/sources/nano-byte-ini-parser-b1beea584b23c65f7c9bcafd8ab9be62395f477a.zip",
+        "upstreamUrl":  "https://codeload.github.com/nano-byte/ini-parser/zip/b1beea584b23c65f7c9bcafd8ab9be62395f477a",
+        "packages":  [
+                         "ini-parser-netstandard@2.5.3"
+                     ],
+        "commit":  "b1beea584b23c65f7c9bcafd8ab9be62395f477a",
+        "sha256":  "7f184148a173dfda4b79ddbe9842361e39302aaaaaaf2044a77fc50f7ade46ec",
+        "repository":  "nano-byte/ini-parser"
+    },
+    {
+        "sourceFile":  "vendor/sources/sqlite-amalgamation-3530400.zip",
+        "repository":  "SQLite",
+        "provenance":  "SQLITE_VERSION and SQLITE_SOURCE_ID in the official source match strings in the exact distributed e_sqlite3.dll",
+        "packages":  [
+                         "SourceGear.sqlite3@3.53.4",
+                         "SQLite@3.53.4"
+                     ],
+        "omissionPolicy":  "Official amalgamation unchanged",
+        "upstreamUrl":  "https://sqlite.org/2026/sqlite-amalgamation-3530400.zip",
+        "commit":  "bf7c7f30031888f4e796e429ab3978879485813aaca6f641c7b33e4e09459bcc",
+        "sha256":  "1e71ddf93849c6a6ecf58b827c0692073d2dd7ee40196158068f7b29f422e87d"
+    }
+]
