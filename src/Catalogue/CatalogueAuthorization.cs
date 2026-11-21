@@ -44,10 +44,10 @@ internal static class CatalogueAuthorization
         string encoded=Text(e,"enc");byte[] signature=Convert.FromBase64String(Text(e,"sig"));
         using var payload=JsonDocument.Parse(Convert.FromBase64String(encoded));
         var p=payload.RootElement;var meta=p.GetProperty("meta");
-        bool continuity=Text(meta,"issuer")=="HEX continuity 2026-11-21";
+        bool handoff=Text(meta,"issuer")=="HEX handoff 2026-11-21";bool continuity=handoff||Text(meta,"issuer")=="HEX continuity 2026-11-21";
         JsonElement emergency=default;
         if(continuity){
-            if(!trust.TryGetProperty("continuity",out emergency)||Text(emergency,"issuer")!=Text(meta,"issuer"))throw new InvalidDataException("Temporary issuer is not trusted.");
+            if(!trust.TryGetProperty(handoff?"handoff":"continuity",out emergency)||Text(emergency,"issuer")!=Text(meta,"issuer"))throw new InvalidDataException("Temporary issuer is not trusted.");
             roots=new[]{Text(emergency,"key")};
         }
         bool valid=false;

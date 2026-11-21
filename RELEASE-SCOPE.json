@@ -1,5 +1,5 @@
 {
-  "version": "HEX-1.1.0-rc.14",
+  "version": "HEX-1.1.0-rc.15",
   "scope": "catalogue-helper-only",
   "ownSourcePublicationAuthorized": true,
   "ownSourceFiles": 23,
@@ -11,6 +11,6 @@
   "nugetPackages": 41,
   "preferredSourceArchives": 30,
   "helperSourceLicense": "GPL-3.0-only",
-  "sourceUrl": "https://github.com/ReSi-modding/hex-catalogue-source/tree/codex/catalogue-continuity-20261121",
-  "manifestSha256": "5df7ddb924dac959a69a249d16ddce7965fe652c6dd68e15dcc820bca21076d9"
+  "sourceUrl": "https://github.com/ReSi-modding/hex-catalogue-source/tree/codex/catalogue-handoff-20261121",
+  "manifestSha256": "520513f8770f753d9f2ec4a56f96ea7cf8e0aa5d01f60001e71681095e63d391"
 }

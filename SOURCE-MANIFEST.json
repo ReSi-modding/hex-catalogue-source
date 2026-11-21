@@ -1,5 +1,5 @@
 {
-  "version": "HEX-1.1.0-rc.14",
+  "version": "HEX-1.1.0-rc.15",
   "files": [
     {
       "path": ".gitignore",
@@ -263,8 +263,8 @@
     },
     {
       "path": "src/Catalogue/CatalogueAuthorization.cs",
-      "bytes": 6172,
-      "sha256": "ba471b738babf36a0780a06d47c32a711efefd921f4ee8f1b15c89adfc7f776a"
+      "bytes": 6258,
+      "sha256": "1c9be56a8fe542d82b8d9d8b0a54b5a92e2d6602634d524bdaa11812ffb3810d"
     },
     {
       "path": "src/Catalogue/CatalogueChecks.cs",
@@ -363,8 +363,8 @@
     },
     {
       "path": "src/SharedCore/Licensing/Trust.json",
-      "bytes": 1370,
-      "sha256": "e36783ef5221cd34a0e36bf242f20538ba9638f7c1ae7d267a4bb3beeea75d02"
+      "bytes": 2150,
+      "sha256": "c7569515c20129f0e4648e168e71a73015dea5801c1995e43b4b4340d07b1b7a"
     },
     {
       "path": "THIRD-PARTY-INVENTORY.json",
