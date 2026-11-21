@@ -1,5 +1,5 @@
 {
-  "version": "HEX-1.1.0-rc.1",
+  "version": "HEX-1.1.0-rc.14",
   "scope": "catalogue-helper-only",
   "ownSourcePublicationAuthorized": true,
   "ownSourceFiles": 23,
@@ -7,10 +7,10 @@
   "gameConnectorIncluded": false,
   "commerceBackendIncluded": false,
   "privateUserDataIncluded": false,
-  "protectedCredentialScan": "passed UTF-8/UTF-16LE exact known production credentials and stock keys",
+  "protectedCredentialScan": "Allowed helper files only; no private key, token, credential file, frontend, game connector or commerce source included",
   "nugetPackages": 41,
   "preferredSourceArchives": 30,
   "helperSourceLicense": "GPL-3.0-only",
-  "sourceUrl": "https://github.com/ReSi-modding/hex-catalogue-source/tree/hex-1.1.0-rc.1",
-  "manifestSha256": "c0dc08896b37de26d2bdd9f80aa5bb0563b1f138b665066d38bcd7384e493b1d"
+  "sourceUrl": "https://github.com/ReSi-modding/hex-catalogue-source/tree/codex/catalogue-continuity-20261121",
+  "manifestSha256": "5df7ddb924dac959a69a249d16ddce7965fe652c6dd68e15dcc820bca21076d9"
 }

@@ -4,5 +4,11 @@
   "environment": "ef1b2f6d-ee43-4692-91b8-b745b0c363cf",
   "keys": [
     "<RSAKeyValue><Modulus>wfWVlz7aO6lj8ruIDEtOqheA0tEP4ZszKYITDEOxnUaQDe+9Dv+qwYr5C5YLJjHEPqq3zhTq0yotkn8nw8P1L3A4PXYRnevTEHO+qvQYvqWVe0Nt+rIoZEoZ5Q/SaUzXzjX2Ck10SXRoi/w0OTBwNQ8CMZQL0K+Y/BoplGmgKmZuhMCt798kf7p85suQj8ObUPPnuFvwZyDTMWU92KgYu9nic5g6ldi+7qaN2EdFbDmLfNx8tHPFy+P2BbaeLGg/BoWFqb+FpJlOnfsem1Ra3Tc4NU6TKFy39mIeSGvSimv3B8hfZK+gDl6BZqVH94I1ByfqfXUy1aba+OmI3+Z4nw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>"
-  ]
+  ],
+  "continuity": {
+    "issuer": "HEX continuity 2026-11-21",
+    "notBefore": "2026-11-21T20:55:00.000Z",
+    "expires": "2026-11-22T00:00:00.000Z",
+    "key": "<RSAKeyValue><Modulus>2Teg37TI4yWb7O4+DZwsm3t4wYt7dHDBK1gMZ8+e1i0rpFvPOQe8jLMgFhRH3PlEqnp6eNBvIVP7Dc94+5xx0ihtso0ieDmjFW8UzA8Uk5/BMF89cVvSPBrlMz/LWkC0lBjXa5eOZ02kq8QnNRMTrvOe1rGGdZ3ihE8EE2in2EjG4Xmslxyj2JYuPeAjPBM8AjXn1wXkSAJ4plmqE5f8NY61meYfhv8r+43m6mdqrad3pRjgFs7GWE7G015JgHcNGpJvpwxCj1Ny1Zy07T8S48VkWvr9K3t8cE5rtWU3gAA25Z4JxM5Gt+NmAifv0N/pFxXxwAMiuKgVt35w4SG5wT93idbFWqmq0Ri71bS+KgT9ASmBJ1PkBeXQ7QxzRkBEhmhzwcjTSwHUgiDy7OXa/65o142F9WGv3Vb6BJ/F/Ty10BiUwWXOS0qokvjp+5wirGLOG+5gDWlKiSr8oq0UH35qSkAUhARDQyq01/enrNckBTq91A46NXGzbGnv9OIx</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>"
+  }
 }

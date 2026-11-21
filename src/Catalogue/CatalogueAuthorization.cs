@@ -33,7 +33,7 @@ internal static class CatalogueAuthorization
     internal static void Verify(string certificate,JsonElement trust,string fingerprint,DateTimeOffset now)
     {
         string account=Text(trust,"account"),product=Text(trust,"product"),environment=Text(trust,"environment");
-        var roots=trust.GetProperty("keys").EnumerateArray().ToArray();
+        var roots=trust.GetProperty("keys").EnumerateArray().Select(x=>x.GetString()!).ToArray();
         if(account==""||product==""||environment==""||roots.Length==0||certificate.Length>262144)throw new InvalidDataException("Paid licensing setup pending.");
         const string begin="-----BEGIN MACHINE FILE-----",end="-----END MACHINE FILE-----";
         certificate=certificate.Trim();
@@ -42,22 +42,30 @@ internal static class CatalogueAuthorization
         var e=envelope.RootElement;
         if(Text(e,"alg")!="base64+rsa-sha256")throw new InvalidDataException("Unexpected authorization algorithm.");
         string encoded=Text(e,"enc");byte[] signature=Convert.FromBase64String(Text(e,"sig"));
+        using var payload=JsonDocument.Parse(Convert.FromBase64String(encoded));
+        var p=payload.RootElement;var meta=p.GetProperty("meta");
+        bool continuity=Text(meta,"issuer")=="HEX continuity 2026-11-21";
+        JsonElement emergency=default;
+        if(continuity){
+            if(!trust.TryGetProperty("continuity",out emergency)||Text(emergency,"issuer")!=Text(meta,"issuer"))throw new InvalidDataException("Temporary issuer is not trusted.");
+            roots=new[]{Text(emergency,"key")};
+        }
         bool valid=false;
         foreach(var root in roots)
         {
-            using var rsa=RSA.Create();rsa.FromXmlString(root.GetString()!);
+            using var rsa=RSA.Create();rsa.FromXmlString(root);
             if(rsa.KeySize>=2048&&rsa.VerifyData(Encoding.UTF8.GetBytes("machine/"+encoded),signature,HashAlgorithmName.SHA256,RSASignaturePadding.Pkcs1)){valid=true;break;}
         }
         if(!valid)throw new InvalidDataException("Authorization signature is not trusted.");
-        using var payload=JsonDocument.Parse(Convert.FromBase64String(encoded));
-        var p=payload.RootElement;var machine=p.GetProperty("data");var attributes=machine.GetProperty("attributes");
+        var machine=p.GetProperty("data");var attributes=machine.GetProperty("attributes");
         if(Text(machine,"type")!="machines"||Text(attributes,"fingerprint")!=fingerprint||Relation(machine,"account")!=account||Relation(machine,"product")!=product||Relation(machine,"environment")!=environment)throw new InvalidDataException("Authorization scope or device mismatch.");
         var license=p.GetProperty("included").EnumerateArray().Single(x=>Text(x,"type")=="licenses"&&Text(x,"id")==Relation(machine,"license"));
         var la=license.GetProperty("attributes");
         if(Relation(license,"product")!=product||Relation(license,"environment")!=environment||
            la.TryGetProperty("suspended",out var suspended)&&suspended.ValueKind==JsonValueKind.True||
            new[]{"SUSPENDED","REVOKED","EXPIRED","BANNED"}.Contains(Text(la,"status").ToUpperInvariant()))throw new InvalidDataException("License unavailable.");
-        var meta=p.GetProperty("meta");var issued=Time(meta,"issued");var expiry=Time(meta,"expiry");var paid=Time(la,"expiry");
+        var issued=Time(meta,"issued");var expiry=Time(meta,"expiry");var paid=Time(la,"expiry");
+        if(continuity&&(issued<Time(emergency,"notBefore")||expiry>Time(emergency,"expires")||now>=Time(emergency,"expires")))throw new InvalidDataException("Temporary access has ended.");
         if(issued>now||expiry<=now||paid<=now||expiry<=issued||expiry-issued>TimeSpan.FromHours(4))throw new InvalidDataException("Authorization expired or future dated.");
         var metadata=la.GetProperty("metadata");var capabilities=metadata.GetProperty("hexCapabilities").EnumerateArray().Select(x=>x.GetString()).ToHashSet(StringComparer.Ordinal);
         if(Text(metadata,"hexProduct")!=product||Text(metadata,"hexEnvironment")!=environment||!capabilities.Contains("app.access")||!capabilities.Contains("catalogue.read"))throw new InvalidDataException("Paid catalogue access required.");

@@ -2,7 +2,7 @@
 
 Source and build materials for the separately executed, read-only catalogue/model-viewer helper distributed with HEX for Windows x64. The main HEX application, gameplay connector and commerce service are not in this repository.
 
-The helper reads installed Skyrim plugin/archive/mesh files and returns bounded JSON over standard input/output. It does not attach to Skyrim or execute gameplay commands. The original production entry point verifies a provider-signed device authorization before processing requests. Modification and redistribution rights for this GPL-covered helper are described in `LICENSE.md`; they are not limited by a HEX pass's expiry.
+The helper reads installed Skyrim plugin/archive/mesh files and returns bounded JSON over standard input/output. It does not attach to Skyrim or execute gameplay commands. The original production entry point verifies a signed device authorization using the compiled provider roots, with a separately identified owner continuity root valid only through November 22, 2026 at 00:00 UTC before processing requests. Modification and redistribution rights for this GPL-covered helper are described in `LICENSE.md`; they are not limited by a HEX pass's expiry.
 
 ## Build the helper
 
