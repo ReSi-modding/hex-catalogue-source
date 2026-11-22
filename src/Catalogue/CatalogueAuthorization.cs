@@ -9,6 +9,10 @@ namespace ScriptDesk.Catalogue;
 // request-supplied root, endpoint, device ID or expiry is accepted.
 internal static class CatalogueAuthorization
 {
+    internal sealed class ClockMismatch:IOException
+    {
+        internal ClockMismatch():base("Authorization expired or future dated."){}
+    }
 #if HEX_TEST_BUILD
     internal const string Composition="Isolated regression build";
 #endif
@@ -65,10 +69,16 @@ internal static class CatalogueAuthorization
            la.TryGetProperty("suspended",out var suspended)&&suspended.ValueKind==JsonValueKind.True||
            new[]{"SUSPENDED","REVOKED","EXPIRED","BANNED"}.Contains(Text(la,"status").ToUpperInvariant()))throw new InvalidDataException("License unavailable.");
         var issued=Time(meta,"issued");var expiry=Time(meta,"expiry");var paid=Time(la,"expiry");
-        if(continuity&&(issued<Time(emergency,"notBefore")||expiry>Time(emergency,"expires")||now>=Time(emergency,"expires")))throw new InvalidDataException("Temporary access has ended.");
-        if(issued>now||expiry<=now||paid<=now||expiry<=issued||expiry-issued>TimeSpan.FromHours(4))throw new InvalidDataException("Authorization expired or future dated.");
+        if(continuity&&(issued<Time(emergency,"notBefore")||expiry>Time(emergency,"expires")))throw new InvalidDataException("Temporary access has ended.");
+        if(expiry<=issued||expiry-issued>TimeSpan.FromHours(4))throw new InvalidDataException("Authorization exceeds the signed time limit.");
         var metadata=la.GetProperty("metadata");var capabilities=metadata.GetProperty("hexCapabilities").EnumerateArray().Select(x=>x.GetString()).ToHashSet(StringComparer.Ordinal);
         if(Text(metadata,"hexProduct")!=product||Text(metadata,"hexEnvironment")!=environment||!capabilities.Contains("app.access")||!capabilities.Contains("catalogue.read"))throw new InvalidDataException("Paid catalogue access required.");
+        if(issued>now||expiry<=now||paid<=now||(continuity&&now>=Time(emergency,"expires")))throw new ClockMismatch();
+    }
+    internal static void VerifyWithClock(string certificate,JsonElement trust,string fingerprint,DateTimeOffset localNow,Func<DateTimeOffset> authenticatedTime)
+    {
+        try{Verify(certificate,trust,fingerprint,localNow);}
+        catch(ClockMismatch){Verify(certificate,trust,fingerprint,authenticatedTime());}
     }
     internal static void Require(JsonElement request)
     {
@@ -76,7 +86,9 @@ internal static class CatalogueAuthorization
         return; // Isolated regression build; never packaged as a commercial helper.
 #else
         using var trust=Trust();
-        Verify(Text(request,"licenseProof"),trust.RootElement,Device(Text(trust.RootElement,"product")),DateTimeOffset.UtcNow);
+        var certificate=Text(request,"licenseProof");var fingerprint=Device(Text(trust.RootElement,"product"));
+        if(CatalogueClock.Anchored)Verify(certificate,trust.RootElement,fingerprint,CatalogueClock.Now);
+        else VerifyWithClock(certificate,trust.RootElement,fingerprint,DateTimeOffset.UtcNow,CatalogueClock.Synchronize);
 #endif
     }
 }
