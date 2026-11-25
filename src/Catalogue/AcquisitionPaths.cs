@@ -12,7 +12,9 @@ internal sealed partial class CatalogueEngine {
         int inspected=0;bool truncated=false;
         while(queue.Count>0&&inspected<256&&paths.Count<96){
             var work=queue.Dequeue();
-            var sources=Rows(db,"SELECT r.key,r.name,r.editor,r.type,r.winner,r.metadata FROM links l JOIN records r ON r.key=l.source WHERE l.target=$0 AND coalesce(r.deleted,0)=0 ORDER BY CASE r.type WHEN 'ConstructibleObject' THEN 0 WHEN 'Flora' THEN 1 WHEN 'Tree' THEN 1 WHEN 'Container' THEN 2 WHEN 'Npc' THEN 3 WHEN 'LeveledItem' THEN 4 WHEN 'Outfit' THEN 5 WHEN 'Book' THEN 6 ELSE 7 END,r.key LIMIT 65",work.key);
+            // Popular spells have many non-supply NPC ActorEffect references.
+            // Keep teaching books within the bound, then verify their typed field.
+            var sources=Rows(db,"SELECT r.key,r.name,r.editor,r.type,r.winner,r.metadata FROM links l JOIN records r ON r.key=l.source WHERE l.target=$0 AND coalesce(r.deleted,0)=0 ORDER BY CASE r.type WHEN 'Book' THEN 0 WHEN 'ConstructibleObject' THEN 1 WHEN 'Flora' THEN 2 WHEN 'Tree' THEN 2 WHEN 'Container' THEN 3 WHEN 'Npc' THEN 4 WHEN 'LeveledItem' THEN 5 WHEN 'Outfit' THEN 6 ELSE 7 END,r.key LIMIT 65",work.key);
             if(sources.Count>64)truncated=true;
             foreach(var row in sources.Take(64)){
                 if(inspected>=256||paths.Count>=96){truncated=true;break;}inspected++;
@@ -46,7 +48,10 @@ internal sealed partial class CatalogueEngine {
                     _=>"Follow this distribution record to a container or NPC; a list alone is not a world location."
                 };
                 paths.Add(new{kind,source,name=nameText,action,steps,conditionsEvaluated=false,liveAvailability=(bool?)null});
-                if(type is "LeveledItem" or "Outfit"){
+                // A teaching book supplies the spell relationship, while its own
+                // incoming suppliers provide the actual item to acquire. Preserve
+                // both edges so a fixed tome recipe never becomes a free spell grant.
+                if(type is "LeveledItem" or "Outfit"||kind=="book-teaches"){
                     if(steps.Count>=3){truncated=true;continue;}
                     var ancestry=new HashSet<string>(work.ancestry,StringComparer.OrdinalIgnoreCase){source};queue.Enqueue((source,steps,ancestry));
                 }

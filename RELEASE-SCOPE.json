@@ -1,8 +1,8 @@
 {
-  "version": "HEX-1.1.0-rc.18",
+  "version": "HEX-1.1.19",
   "scope": "catalogue-helper-only",
   "ownSourcePublicationAuthorized": true,
-  "ownSourceFiles": 24,
+  "ownSourceFiles": 30,
   "mainFrontendIncluded": false,
   "gameConnectorIncluded": false,
   "commerceBackendIncluded": false,
@@ -11,6 +11,6 @@
   "nugetPackages": 41,
   "preferredSourceArchives": 30,
   "helperSourceLicense": "GPL-3.0-only",
-  "sourceUrl": "https://github.com/ReSi-modding/hex-catalogue-source/tree/codex/catalogue-clock-fix-20261122",
-  "manifestSha256": "43ff604ecfab37d47244b7b663367d86b03e7cc1d493708cfdb3b34eda397bdb"
+  "sourceUrl": "https://github.com/ReSi-modding/hex-catalogue-source/tree/hex-1.1.19",
+  "manifestSha256": "75478dcc8a2714b381c0f960485008208f99c9553e4f2deb7ec06b3970fa7136"
 }

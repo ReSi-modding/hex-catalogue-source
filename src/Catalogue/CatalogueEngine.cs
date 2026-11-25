@@ -22,6 +22,7 @@ internal sealed partial class CatalogueEngine {
         Directory.CreateDirectory(root);database=Path.Combine(root,"catalogue.sqlite");
     }
     internal object Execute(JsonElement r)=>Text(r,"command") switch {
+        "atlasExport"=>AtlasExport(r),"atlasStatus"=>AtlasStatus(r),
         "index"=>Build(),"search"=>Search(r),"travelSearch"=>Search(r),"travelDestinations"=>TravelDestinations(r),"travelDoor"=>TravelDoor(r),"detail"=>Detail(Text(r,"key")),"sourceRecord"=>SourceRecord(Text(r,"key")),"placedReference"=>PlacedReference(r),"crossref"=>CrossReference(Text(r,"key")),"status"=>Status(),"assets"=>Assets(Text(r,"key")),"thumbnail"=>Thumbnail(Text(r,"key")),"modelVariants"=>ModelOptions(Text(r,"key")),"model"=>Model(Text(r,"key"),Text(r,"variant")),_=>throw new InvalidDataException("Unknown catalogue command.")};
     internal static string Text(JsonElement r,string key,string fallback="")=>r.TryGetProperty(key,out var v)&&v.ValueKind==JsonValueKind.String?v.GetString()!:fallback;
     static int Int(JsonElement r,string key,int fallback,int min,int max)=>r.TryGetProperty(key,out var v)&&v.TryGetInt32(out int n)?Math.Clamp(n,min,max):fallback;

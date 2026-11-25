@@ -4,6 +4,7 @@ namespace ScriptDesk.Catalogue;
 internal static class CatalogueChecks {
     internal static void Run(){
         int checks=0;void Check(bool v,string name){if(!v)throw new Exception("FAIL "+name);checks++;Console.Error.WriteLine("PASS "+name);}
+        AtlasChecks.Run(Check);
         var vmRecord=new {Scripts=new[]{new {Name="magicNightEyeScript",Properties=new[]{new{Name="Intro",Object=new{FormKey=Mutagen.Bethesda.Plugins.FormKey.Factory("000123:Skyrim.esm")}}}}}};
         var projected=JsonSerializer.SerializeToElement(RecordData.Project(vmRecord));
         Check(projected.GetProperty("Scripts")[0].GetProperty("Properties")[0].GetProperty("Object").GetProperty("FormKey").GetString()=="000123:Skyrim.esm","Script property FormKey survives nested catalogue projection");
